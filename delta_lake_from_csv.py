@@ -37,8 +37,8 @@ try:
     delta_df = spark.read.format("delta").load("delta-table-3")
     
     print(f"Delta table has {delta_df.count()} rows")
-    print(f"Delta table matadata columns {delta_df.metadataColumn('AUTHOR_NAME')} rows")
-    
+    print(f"Delta table columns: {delta_df.columns}")
+    delta_df.select("AUTHOR_NAME").show(5)
 except Exception as e:
     print(f"Error writing delta table: {e}")
 
