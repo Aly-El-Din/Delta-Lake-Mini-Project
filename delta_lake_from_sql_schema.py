@@ -12,13 +12,13 @@ DB_DATABASE_DEV="zad"
 DB_USER_DEV="ZAD-aly"
 DB_PASSWORD_DEV="1234"
 TABLE_NAME = "student"
+COL_MAP_TABLE_NAME = "student-col-map"
 
 os.environ["HADOOP_HOME"] = "D:\\hadoop"
 os.environ["PYSPARK_SUBMIT_ARGS"] = (
     "--packages io.delta:delta-spark_2.13:4.0.0,"
     "mysql:mysql-connector-java:8.0.33 pyspark-shell"
 )
-
 
 #Database configurations
 jdbc_url = f"jdbc:mysql://{DB_HOST_DEV}:{DB_PORT_DEV}/{DB_DATABASE_DEV}?useSSL=false"
@@ -30,11 +30,14 @@ connenction_properties = {
 }
 
 delta_table_output_path = f"delta-table-{TABLE_NAME}"
-
+delta_table_absolute_path = os.path.abspath(f"delta-table-{TABLE_NAME}")
+delta_table_col_map_path = f"delta-table-{COL_MAP_TABLE_NAME}"
+delta_table_col_map_abs_path = os.path.abspath(f"delta-table-{COL_MAP_TABLE_NAME}")
 
 class DeltaLakeFromSqlSchema():
     def __init__(self, spark:SparkSession):
         self.spark = spark
+
     def get_table_dim(self, delta_df:DataFrame):
         row_count = delta_df.count()
         col_count = delta_df.columns()
@@ -55,7 +58,6 @@ class DeltaLakeFromSqlSchema():
                     for line_num, line in enumerate(f, 1):
                         if line.strip():
                             entry = json.loads(line)
-                            
                             if 'commitInfo' in entry:
                                 commitInfo = entry['commitInfo']
                                 print(f"timestampe: {commitInfo['timestamp']}, operation: {commitInfo['operation']}, BlindAppend: {commitInfo['isBlindAppend']}, operation metrics: {commitInfo['operationMetrics']}")
@@ -110,34 +112,57 @@ class DeltaLakeFromSqlSchema():
         except Exception as e:
             print("Error updating table")
 
-    def create_table_with_column_mapping(self, df:DataFrame, mode: str='id'):
-        try:
-            (df.write.format("delta").mode("overwrite").option("delta.columnMapping.mode", mode).save(delta_table_output_path))
-            print(f"Delta table with column mapping created at: {delta_table_output_path}")
-            # Verify column mapping is enabled
-            delta_table = DeltaTable.forPath(self.spark, delta_table_output_path)
-            table_properties = delta_table.detail().select("properties").collect()[0]["properties"]
-            
-            print(f"📋 Table Properties:")
-            for key, value in table_properties.items():
-                if "columnMapping" in key or "minReaderVersion" in key or "minWriterVersion" in key:
-                    print(f"   {key}: {value}")
-        except Exception as e:
-            print(f"Error creating Delta table with column mapping: {e}")
     def alter_table(self):
-        try:
-            delta_table = DeltaTable.forPath(self.spark, delta_table_output_path)
-            self.spark.sql(f"""
-                ALTER TABLE delta.`{delta_table_output_path}`
-                RENAME COLUMN id TO student_id
-            """)
+        try:  
+            #print("Setting table column mapping properties")          
+        
+            #self.spark.sql(f"""
+            #    ALTER TABLE delta.`{delta_table_absolute_path}` SET TBLPROPERTIES (
+            #            'delta.columnMapping.mode' = 'id',
+            #            'delta.minReaderVersion' = '2',
+            #            'delta.minWriterVersion' = '5')
+            #""")
             
+            ##Column mapping mode => id
+            print("Altering table with ID mode")
+            
+            #self.spark.sql(f"""
+            #    ALTER TABLE delta.`{delta_table_output_path}`
+            #    RENAME COLUMN id TO student_id""")
+
             self.spark.sql(f"""
-                ALTER TABLE delta.`{delta_table_output_path}`
-                RENAME COLUMN email TO student_email
+                ALTER TABLE delta.`{delta_table_col_map_abs_path}`
+                DROP COLUMN photo
             """)
+             
+            ##Column mapping mode => name
+            #print("Altering table with name mode")
+            #self.spark.sql(f"""
+            #    ALTER TABLE delta.`{delta_table_absolute_path}`
+            #    RENAME COLUMN email TO student_email
+            #""")
+            
         except Exception as e:
-            print()
+            print(f"Error alternating the table! => {e}")
+    
+    def deletion_vector(self):
+        try:
+            self.spark.sql(f"""
+                        ALTER TABLE delta.`{delta_table_absolute_path}`
+                        SET TBLPROPERTIES ('delta.enableDeletionVectors' = true)
+                            """)
+            print("Deletion vector props set successfully!")
+        except Exception as e:
+            print(f"Can't configure deletion vector props! => {e}")
+        
+        try:
+            self.spark.sql(f"""
+                            DELETE FROM delta.`{delta_table_absolute_path}` WHERE id=3                         
+                            """)
+            print("Row deleted!")
+        except Exception as e:
+            print(f"Can't delete row!")
+    
 def main():
     builder = SparkSession.builder \
             .appName("SQL Schema app") \
@@ -151,41 +176,78 @@ def main():
     print("Spark connection created!\n\n")
     
     loader = DeltaLakeFromSqlSchema(spark)    
+    
+    """Loading table from mysql """
+    
+    """
     try:
         df = spark.read.jdbc(url=jdbc_url, table=TABLE_NAME, properties=connenction_properties)
         print(f"Spark dataframe created successfully\n")
         df.show(5)
     except Exception as e:
         print(f"Error in reading database table:{TABLE_NAME}=>:{e}")
-    """try:
-        df = spark.read.jdbc(url=jdbc_url, table=TABLE_NAME, properties=connenction_properties)
-        print(f"Spark dataframe created successfully\n")
-        df.show(5)
-    except Exception as e:
-        print(f"Error in reading database table:{TABLE_NAME}=>:{e}")    
-
+    """
+    
+    """Writing delta table"""
+    
+    """
     try:
         df.write.format("delta").mode("overwrite").save(delta_table_output_path)
         print("Delta table is written successfully!")
-        try:
-            delta_df = spark.read.format("delta").load(delta_table_output_path)
-            print("Delta table loaded successfully!")
+    
+    except Exception as e:
+        print(f"Error writing delta table => {e}")
+    """
+    
+    """Writing table with setting column mapping in ID mode"""
+
+    """
+    try:
+        df.write.format("delta").option("delta.columnMapping.mode", "id") \
+        .option("delta.minReaderVersion", "2") \
+        .option("delta.minWriterVersion", "5") \
+        .mode("overwrite").save(delta_table_col_map_path)
+        print("Data frame col map written successfully!")
+    
+    except Exception as e:
+        print(f"Data frame is not written with minR=2, minW=5")
+    """
+    
+    """
+    try:
+        delta_df = spark.read.format("delta").load(delta_table_output_path)
+        print("Delta table loaded successfully!")
+        try:    
             loader.get_table_dim(delta_df)
+        except Exception as e:
+            print(f"Error getting table dims=>{e}")
+        try:
             loader.delta_table_schema(delta_df)
+        except Exception as e:
+            print(f"Error getting table schema=>{e}")
+        try:
             loader.get_table_history(delta_df)
         except Exception as e:
-            print(f"Error loading delta table=> {e}")"""
+            print(f"Error getting table history=>{e}")
+    except Exception as e:
+        print(f"Error loading delta table=> {e}")"""
+    
+    #except Exception as e: 
+    #    print(f"")
+    
     try:
-        if os.path.exists(os.path.join(delta_table_output_path, "_delta_log")):
+        if os.path.exists(os.path.join(delta_table_col_map_path, "_delta_log")):
             print("Delta table already exists. Proceeding to insert...")
         else:
             print("Delta table doesn't exist. You need to create it before inserting.")
-            return
+            return      
 
         #loader.insert_operation(initial_delta_table=df)
-        loader.update_operation()
+        #loader.update_operation()
+        #loader.alter_table()
+        loader.deletion_vector()
     except Exception as e:
-        print(f"Error during insert operation => {e}")    
+        print(f"Error during altering operation => {e}")    
     """except Exception as e:
         print(f"Error writting delta table => {e}")"""
 if __name__ == '__main__':
