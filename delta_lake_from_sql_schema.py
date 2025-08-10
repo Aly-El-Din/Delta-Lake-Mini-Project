@@ -157,13 +157,32 @@ class DeltaLakeFromSqlSchema():
         
         try:
             self.spark.sql(f"""
-                            DELETE FROM delta.`{delta_table_absolute_path}` WHERE id=3                         
+                            DELETE FROM delta.`{delta_table_absolute_path}` WHERE id=5                         
                             """)
             print("Row deleted!")
         except Exception as e:
             print(f"Can't delete row!")
-    
+        
+    def apply_deletion_vector(self):
+        #print("Describing current details:")
+        #self.spark.sql(f"""DESCRIBE DETAIL delta.`{delta_table_output_path}`""")
+        try:
+            self.spark.sql(f"""REORG TABLE delta.`{delta_table_absolute_path}` APPLY (PURGE)""")
+            print(f"file Deleted")
+        except Exception as e:
+            print(f"Error in deleting the file => {e}")
+        #print("Verify new file structure")
+        #self.spark.sql(f"""DESCRIBE DETAIL delta.`{delta_table_output_path}`""")
+
+    def vaccum_clean_up(self):
+        try:
+            self.spark.sql(f"VACUUM delta.`{delta_table_absolute_path}`")
+        except Exception as e:
+            print(f"Error cleaning up => {e}")
 def main():
+    
+    """Configuring spark connection"""
+
     builder = SparkSession.builder \
             .appName("SQL Schema app") \
             .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
@@ -175,7 +194,7 @@ def main():
     spark = configure_spark_with_delta_pip(builder).getOrCreate()
     print("Spark connection created!\n\n")
     
-    loader = DeltaLakeFromSqlSchema(spark)    
+    loader = DeltaLakeFromSqlSchema(spark)
     
     """Loading table from mysql """
     
@@ -213,6 +232,8 @@ def main():
         print(f"Data frame is not written with minR=2, minW=5")
     """
     
+    """Loading delta table"""
+
     """
     try:
         delta_df = spark.read.format("delta").load(delta_table_output_path)
@@ -232,12 +253,10 @@ def main():
     except Exception as e:
         print(f"Error loading delta table=> {e}")"""
     
-    #except Exception as e: 
-    #    print(f"")
-    
+    """Checking delta table existence"""
     try:
         if os.path.exists(os.path.join(delta_table_col_map_path, "_delta_log")):
-            print("Delta table already exists. Proceeding to insert...")
+            print("Delta table already exists. Proceeding to operation...")
         else:
             print("Delta table doesn't exist. You need to create it before inserting.")
             return      
@@ -245,9 +264,11 @@ def main():
         #loader.insert_operation(initial_delta_table=df)
         #loader.update_operation()
         #loader.alter_table()
-        loader.deletion_vector()
+        #loader.deletion_vector()
+        #loader.apply_deletion_vector()
+        loader.vaccum_clean_up()
     except Exception as e:
-        print(f"Error during altering operation => {e}")    
+        print(f"Error during operation => {e}")    
     """except Exception as e:
         print(f"Error writting delta table => {e}")"""
 if __name__ == '__main__':
