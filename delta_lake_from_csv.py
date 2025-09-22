@@ -21,7 +21,7 @@ class DeltaLakeCSV():
             print(f"{field.name}\n{field.dataType}\n{field.nullable}\n{field.metadata}\n\n\n")
 
     def get_table_history(self, delta_df:DataFrame):
-        delta_log_dir = os.path.join("delta-table-4", "_delta_log")
+        delta_log_dir = os.path.join("delta-table-test_table_4", "_delta_log")
         if os.path.exists(delta_log_dir):
             log_files = sorted([f for f in os.listdir(delta_log_dir) if f.endswith('.json')])
             for i, log_file in enumerate(log_files):
@@ -59,21 +59,24 @@ def main():
         .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog") \
         .config("spark.hadoop.io.native.lib.available", "false") \
         .config("spark.sql.adaptive.enabled", "false") \
-        .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+        .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") \
+        .config("spark.driver.memory", "4g") \
+        .config("spark.executor.memory", "4g")
     
     deltaLakeCSV = DeltaLakeCSV()
 
     spark = configure_spark_with_delta_pip(builder).getOrCreate()
 
     try:
-        authors = spark.read.csv('authors.csv', sep=',', inferSchema=True, header=True)
+        csv_data = spark.read.csv('C:\\Users\\Cyber\\Downloads\\actor3_final_output'
+        '.csv', sep=',', inferSchema=True, header=True)
         print("CSV loaded successfully")
-        authors.show(5)  
+        csv_data.show(5)
     except Exception as e:
         print(f"Error parsing csv: {e}")
 
     try:
-        df = authors.toPandas()
+        df = csv_data.toPandas()
         print(f"DataFrame shape: {df.shape}")
         print(f"Columns: {df.columns.tolist()}")
     except Exception as e:
@@ -81,11 +84,17 @@ def main():
 
     # Write to Delta Table - this should work now
     try:
-        authors.write.format("delta").mode("overwrite").save("delta-table-4")
-        print("Delta table created successfully!")
-        
+        total_rows = csv_data.count()
+        records_per_file = 1000
+        num_partitions = (total_rows + records_per_file - 1) // records_per_file
+        print(f"Total number of partitions: {num_partitions}")        
+        try:
+            csv_data.repartition(num_partitions).write.format("delta").mode("overwrite").save("delta-table-test_table_7")
+            print("Delta table created successfully!")
+        except Exception as e:
+            print(f"Error writing delta table=>{e}")
         #loading from delta table to pyspark dataframe
-        delta_df = spark.read.format("delta").load("delta-table-3")
+        """delta_df = spark.read.format("delta").load("delta-table-test_table_4")
         
         #Exploring loaded delta table
         print(f"Delta table columns: {delta_df.columns}")
@@ -94,7 +103,7 @@ def main():
         except Exception as e:
             print(f"Error getting table dimensions: {e}")
 
-        try:    
+        try:
             deltaLakeCSV.delta_table_schema(delta_df)
         except Exception as e:
             print(f"Error getting schema: {e}")
@@ -102,16 +111,12 @@ def main():
         try:
             deltaLakeCSV.get_table_history(delta_df)
         except Exception as e:
-            print(f"Error getting history: {e}")
-
-        delta_df.select("AUTHOR_NAME").show(5)
+            print(f"Error getting history: {e}")"""
 
     except Exception as e:
         print(f"Error writing delta table: {e}")
 
     spark.stop()
-
-
 
 if __name__ == '__main__':
     main()

@@ -1,7 +1,9 @@
 from pyspark.sql import SparkSession
 from pyspark.sql.dataframe import DataFrame
 from pyspark.sql.functions import *
+from pyspark.sql.functions import trim, col, concat_ws, md5
 from datetime import datetime
+
 from delta import *
 import os, json
 
@@ -11,8 +13,8 @@ DB_PORT_DEV="3306"
 DB_DATABASE_DEV="zad"
 DB_USER_DEV="ZAD-aly"
 DB_PASSWORD_DEV="1234"
-TABLE_NAME = "student"
-COL_MAP_TABLE_NAME = "student-col-map"
+TABLE_NAME = "test_table_6"
+COL_MAP_TABLE_NAME = f"{TABLE_NAME}-col-map"
 
 os.environ["HADOOP_HOME"] = "D:\\hadoop"
 os.environ["PYSPARK_SUBMIT_ARGS"] = (
@@ -30,9 +32,12 @@ connenction_properties = {
 }
 
 delta_table_output_path = f"delta-table-{TABLE_NAME}"
-delta_table_absolute_path = os.path.abspath(f"delta-table-{TABLE_NAME}")
+delta_table_absolute_path = os.path.abspath(delta_table_output_path)
 delta_table_col_map_path = f"delta-table-{COL_MAP_TABLE_NAME}"
-delta_table_col_map_abs_path = os.path.abspath(f"delta-table-{COL_MAP_TABLE_NAME}")
+delta_table_col_map_abs_path = os.path.abspath(delta_table_col_map_path)
+
+spark_csv_file_path = "C:\\Users\\Cyber\\Downloads\\smallTable_5000_10_50_spark.csv"
+parquet_reader_csv_file_path = "C:\\Users\\Cyber\\Downloads\\actor3_final_output.csv"
 
 class DeltaLakeFromSqlSchema():
     def __init__(self, spark:SparkSession):
@@ -49,7 +54,7 @@ class DeltaLakeFromSqlSchema():
             print(f"{field.name}\n{field.dataType}\n{field.nullable}\n{field.metadata}\n\n\n")
 
     def get_table_history(self, delta_df:DataFrame):
-        delta_log_dir = os.path.join("delta-table-4", "_delta_log")
+        delta_log_dir = os.path.join(f"{delta_table_output_path}", "_delta_log")
         if os.path.exists(delta_log_dir):
             log_files = sorted([f for f in os.listdir(delta_log_dir) if f.endswith('.json')])
             for i, log_file in enumerate(log_files):
@@ -85,17 +90,9 @@ class DeltaLakeFromSqlSchema():
             return datetime.strptime(date_str, "%Y-%m-%d")
         
         new_students_data = [
-            (9999, "john.doe@newschool.edu", "encrypted_password", 1, "John Doe", "John",
-            "Male", parse_date("2019-01-01"), "/uploads/profile-john.jpg", parse_date("2024-01-01"),
+            (10000, "aly.elsayed@newschool.edu", "encrypted_password", 1, "Aly El Sayed", "Aly",
+            "Male", parse_date("2019-01-01"), "/uploads/profile-lol.jpg", parse_date("2024-01-01"),
             parse_date("2024-01-01"), parse_date("2024-01-01"), "", "b", 100, True),
-
-            (9998, "jane.smith@newschool.edu", "encrypted_password", 1, "Jane Smith", "Jane",
-            "Female", parse_date("2019-02-01"), "/uploads/profile-jane.jpg", parse_date("2024-01-01"),
-            parse_date("2024-01-01"), parse_date("2024-01-01"), "", "c", 150, True),
-
-            (9997, "bob.wilson@newschool.edu", "encrypted_password", 2, "Bob Wilson", "Bob",
-            "Male", parse_date("2019-03-01"), "/uploads/profile-bob.jpg", parse_date("2024-01-01"),
-            parse_date("2024-01-01"), parse_date("2024-01-01"), "", "d", 75, False)
         ]
 
         current_schema = initial_delta_table.schema
@@ -145,24 +142,95 @@ class DeltaLakeFromSqlSchema():
         except Exception as e:
             print(f"Error alternating the table! => {e}")
     
-    def deletion_vector(self):
+    def deletion_vector(self):        
         try:
             self.spark.sql(f"""
-                        ALTER TABLE delta.`{delta_table_absolute_path}`
-                        SET TBLPROPERTIES ('delta.enableDeletionVectors' = true)
-                            """)
-            print("Deletion vector props set successfully!")
-        except Exception as e:
-            print(f"Can't configure deletion vector props! => {e}")
-        
-        try:
+                            ALTER TABLE delta.`{delta_table_absolute_path}`
+                           SET TBLPROPERTIES ('delta.enableDeletionVectors' = 'true',
+                           'delta.columnMapping.mode' = 'name') 
+                           """)
+            
             self.spark.sql(f"""
-                            DELETE FROM delta.`{delta_table_absolute_path}` WHERE id=5                         
+                            DELETE FROM delta.`{delta_table_absolute_path}` WHERE fare_amount>=5                    
                             """)
             print("Row deleted!")
         except Exception as e:
             print(f"Can't delete row!")
+    
+    def export_delta_to_csv(self, output_path: str, overwrite: bool = True):
+        try:
+            print("Reading Delta table...")
+            delta_df = self.spark.read.format("delta").load(delta_table_output_path)
+
+            # Format date columns to match Java output (M/d/yyyy format)
+            print("Formatting date columns...")
+            for column_name, data_type in delta_df.dtypes:
+                if data_type == 'date':
+                    # Convert from YYYY-MM-DD to M/d/yyyy format
+                    delta_df = delta_df.withColumn(
+                        column_name, 
+                        date_format(col(column_name), "M/d/yyyy")
+                    )
+                    print(f"Formatted date column: {column_name}")
+
+            print("Writing Delta table to one CSV file...")
+            mode = "overwrite" if overwrite else "append"
+
+            (delta_df
+                .coalesce(1) 
+                .write
+                .option("header", "true")
+                .mode(mode)
+                .csv(output_path))
+
+            print(f"Delta table successfully written to ONE CSV at: {output_path}")
+
+        except Exception as e:
+            print(f"Error exporting Delta table to CSV => {e}")
+
+    def validate_csv_files(self, memory_csv_file_path, reference_pyspark_csv_file_path):    
+        memory_df = self.spark.read.option("header", "true").csv(memory_csv_file_path)
+        reference_df = self.spark.read.option("header", "true").csv(reference_pyspark_csv_file_path)
         
+        # Trim all columns
+        for column in memory_df.columns:
+            memory_df = memory_df.withColumn(column, trim(col(column)))
+            reference_df = reference_df.withColumn(column, trim(col(column)))
+        
+        # Create hash of all columns combined for each row
+        all_cols = memory_df.columns
+        memory_df = memory_df.withColumn("row_hash", 
+                                    md5(concat_ws("|", *[col(c) for c in all_cols])))
+        reference_df = reference_df.withColumn("row_hash", 
+                                            md5(concat_ws("|", *[col(c) for c in all_cols])))
+        
+        # Count unique hashes
+        memory_hashes = memory_df.select("row_hash").distinct()
+        reference_hashes = reference_df.select("row_hash").distinct()
+        
+        print(f"Memory CSV: {memory_df.count()} rows, {memory_hashes.count()} unique")
+        print(f"Reference CSV: {reference_df.count()} rows, {reference_hashes.count()} unique")
+        
+        # Find differences
+        only_in_memory = memory_hashes.subtract(reference_hashes)
+        only_in_reference = reference_hashes.subtract(memory_hashes)
+        
+        if only_in_memory.count() == 0 and only_in_reference.count() == 0:
+            print("Files contain identical data!")
+        else:
+            print("\n\nMISMATCHES FOUND...\n\n")
+            print(f"Rows only in memory: {only_in_memory.count()}")
+            print(f"Rows only in reference: {only_in_reference.count()}")
+            
+            # Show some examples of different rows
+            if only_in_memory.count() > 0:
+                print("\nSample rows only in memory:")
+                memory_df.join(only_in_memory, "row_hash", "inner").drop("row_hash").show(3, truncate=False)
+            
+            if only_in_reference.count() > 0:
+                print("\nSample rows only in reference:")
+                reference_df.join(only_in_reference, "row_hash", "inner").drop("row_hash").show(3, truncate=False)
+
     def apply_deletion_vector(self):
         #print("Describing current details:")
         #self.spark.sql(f"""DESCRIBE DETAIL delta.`{delta_table_output_path}`""")
@@ -179,6 +247,13 @@ class DeltaLakeFromSqlSchema():
             self.spark.sql(f"VACUUM delta.`{delta_table_absolute_path}`")
         except Exception as e:
             print(f"Error cleaning up => {e}")
+    
+    def time_travel(self):
+        df_version = self.spark.read.format("delta") \
+            .option("versionAsOf", 2) \
+            .load(delta_table_output_path)
+        df_version.show()
+
 def main():
     
     """Configuring spark connection"""
@@ -186,6 +261,9 @@ def main():
     builder = SparkSession.builder \
             .appName("SQL Schema app") \
             .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension") \
+            .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog") \
+            .config("spark.databricks.delta.properties.defaults.enableDeletionVectors", "true") \
+            .config("spark.databricks.delta.properties.defaults.columnMapping.mode", "name") \
             .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog") \
             .config("spark.hadoop.io.native.lib.available", "false") \
             .config("spark.sql.adaptive.enabled", "false") \
@@ -197,8 +275,8 @@ def main():
     loader = DeltaLakeFromSqlSchema(spark)
     
     """Loading table from mysql """
-    
-    """
+        
+    """    
     try:
         df = spark.read.jdbc(url=jdbc_url, table=TABLE_NAME, properties=connenction_properties)
         print(f"Spark dataframe created successfully\n")
@@ -209,14 +287,12 @@ def main():
     
     """Writing delta table"""
     
-    """
-    try:
-        df.write.format("delta").mode("overwrite").save(delta_table_output_path)
+    """try:
+        df.repartition(100).write.format("delta").save(delta_table_output_path)
         print("Delta table is written successfully!")
     
     except Exception as e:
-        print(f"Error writing delta table => {e}")
-    """
+        print(f"Error writing delta table => {e}")"""
     
     """Writing table with setting column mapping in ID mode"""
 
@@ -234,8 +310,7 @@ def main():
     
     """Loading delta table"""
 
-    """
-    try:
+    """try:
         delta_df = spark.read.format("delta").load(delta_table_output_path)
         print("Delta table loaded successfully!")
         try:    
@@ -252,23 +327,27 @@ def main():
             print(f"Error getting table history=>{e}")
     except Exception as e:
         print(f"Error loading delta table=> {e}")"""
-    
+
     """Checking delta table existence"""
     try:
-        if os.path.exists(os.path.join(delta_table_col_map_path, "_delta_log")):
+        if os.path.exists(os.path.join(delta_table_output_path, "_delta_log")):
             print("Delta table already exists. Proceeding to operation...")
         else:
             print("Delta table doesn't exist. You need to create it before inserting.")
             return      
 
-        #loader.insert_operation(initial_delta_table=df)
+        #loader.insert_operation(initial_delta_table=delta_df)
         #loader.update_operation()
         #loader.alter_table()
         #loader.deletion_vector()
         #loader.apply_deletion_vector()
-        loader.vaccum_clean_up()
+        #loader.vaccum_clean_up()
+        #loader.time_travel()
+        #loader.export_delta_to_csv(output_path="C:\\Users\\Cyber\\Downloads\\test_table_6")
+        loader.validate_csv_files(memory_csv_file_path=parquet_reader_csv_file_path,
+                                  reference_pyspark_csv_file_path=spark_csv_file_path)
     except Exception as e:
-        print(f"Error during operation => {e}")    
+        print(f"Error during operation => {e}")   
     """except Exception as e:
         print(f"Error writting delta table => {e}")"""
 if __name__ == '__main__':

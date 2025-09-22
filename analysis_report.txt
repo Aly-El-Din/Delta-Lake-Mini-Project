@@ -1,0 +1,6146 @@
+Found 1021 CSV files to analyze
+
+Processing: test_table.csv
+Thread: Unknown
+Time: 0.1ms
+Rows: 1, Columns: 8
+Size: 0.2KB
+
+Processing: test_table1.csv
+Thread: Thread-2
+Time: 7876.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table10.csv
+Thread: Thread-11
+Time: 8392.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table100.csv
+Thread: Thread-101
+Time: 5720.0ms
+Rows: 141, Columns: 8
+Size: 15.2KB
+
+Processing: test_table1000.csv
+Thread: Thread-1001
+Time: 3489.0ms
+Rows: 154, Columns: 8
+Size: 16.3KB
+
+Processing: test_table1001.csv
+Thread: Thread-1002
+Time: 3073.0ms
+Rows: 158, Columns: 8
+Size: 17.0KB
+
+Processing: test_table1002.csv
+Thread: Thread-1003
+Time: 1331.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table1003.csv
+Thread: Thread-1004
+Time: 2714.0ms
+Rows: 145, Columns: 8
+Size: 15.5KB
+
+Processing: test_table1004.csv
+Thread: Thread-1005
+Time: 3840.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table1005.csv
+Thread: Thread-1006
+Time: 1615.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table1006.csv
+Thread: Thread-1007
+Time: 3512.0ms
+Rows: 127, Columns: 8
+Size: 13.8KB
+
+Processing: test_table1007.csv
+Thread: Thread-1008
+Time: 2715.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table1008.csv
+Thread: Thread-1009
+Time: 3530.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table1009.csv
+Thread: Thread-1010
+Time: 2752.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table101.csv
+Thread: Thread-102
+Time: 7358.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table1010.csv
+Thread: Thread-1011
+Time: 3638.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table1011.csv
+Thread: Thread-1012
+Time: 2687.0ms
+Rows: 136, Columns: 8
+Size: 14.5KB
+
+Processing: test_table1012.csv
+Thread: Thread-1013
+Time: 1852.0ms
+Rows: 117, Columns: 8
+Size: 12.6KB
+
+Processing: test_table1013.csv
+Thread: Thread-1014
+Time: 3850.0ms
+Rows: 145, Columns: 8
+Size: 15.7KB
+
+Processing: test_table1014.csv
+Thread: Thread-1015
+Time: 3861.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table1015.csv
+Thread: Thread-1016
+Time: 4166.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table1016.csv
+Thread: Thread-1017
+Time: 3751.0ms
+Rows: 130, Columns: 8
+Size: 13.9KB
+
+Processing: test_table1017.csv
+Thread: Thread-1018
+Time: 1349.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table1018.csv
+Thread: Thread-1019
+Time: 2944.0ms
+Rows: 151, Columns: 8
+Size: 16.3KB
+
+Processing: test_table1019.csv
+Thread: Thread-1020
+Time: 4073.0ms
+Rows: 143, Columns: 8
+Size: 15.2KB
+
+Processing: test_table102.csv
+Thread: Thread-103
+Time: 8035.0ms
+Rows: 156, Columns: 8
+Size: 16.8KB
+
+Processing: test_table1020.csv
+Thread: Thread-1021
+Time: 2127.0ms
+Rows: 125, Columns: 8
+Size: 13.6KB
+
+Processing: test_table103.csv
+Thread: Thread-104
+Time: 5922.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table104.csv
+Thread: Thread-105
+Time: 8014.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table105.csv
+Thread: Thread-106
+Time: 6132.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table106.csv
+Thread: Thread-107
+Time: 8023.0ms
+Rows: 158, Columns: 8
+Size: 17.0KB
+
+Processing: test_table107.csv
+Thread: Thread-108
+Time: 8224.0ms
+Rows: 137, Columns: 8
+Size: 14.6KB
+
+Processing: test_table108.csv
+Thread: Thread-109
+Time: 8076.0ms
+Rows: 149, Columns: 8
+Size: 15.9KB
+
+Processing: test_table109.csv
+Thread: Thread-110
+Time: 8130.0ms
+Rows: 121, Columns: 8
+Size: 13.0KB
+
+Processing: test_table11.csv
+Thread: Thread-12
+Time: 8342.0ms
+Rows: 126, Columns: 8
+Size: 13.7KB
+
+Processing: test_table110.csv
+Thread: Thread-111
+Time: 6962.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table111.csv
+Thread: Thread-112
+Time: 5599.0ms
+Rows: 159, Columns: 8
+Size: 17.2KB
+
+Processing: test_table112.csv
+Thread: Thread-113
+Time: 7694.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table113.csv
+Thread: Thread-114
+Time: 8327.0ms
+Rows: 148, Columns: 8
+Size: 15.8KB
+
+Processing: test_table114.csv
+Thread: Thread-115
+Time: 7652.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table115.csv
+Thread: Thread-116
+Time: 8443.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table116.csv
+Thread: Thread-117
+Time: 7609.0ms
+Rows: 147, Columns: 8
+Size: 15.8KB
+
+Processing: test_table117.csv
+Thread: Thread-118
+Time: 7990.0ms
+Rows: 162, Columns: 8
+Size: 17.2KB
+
+Processing: test_table118.csv
+Thread: Thread-119
+Time: 7767.0ms
+Rows: 134, Columns: 8
+Size: 14.3KB
+
+Processing: test_table119.csv
+Thread: Thread-120
+Time: 6509.0ms
+Rows: 155, Columns: 8
+Size: 16.6KB
+
+Processing: test_table12.csv
+Thread: Thread-13
+Time: 8642.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table120.csv
+Thread: Thread-121
+Time: 7997.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table121.csv
+Thread: Thread-122
+Time: 5565.0ms
+Rows: 112, Columns: 8
+Size: 12.1KB
+
+Processing: test_table122.csv
+Thread: Thread-123
+Time: 8294.0ms
+Rows: 147, Columns: 8
+Size: 16.0KB
+
+Processing: test_table123.csv
+Thread: Thread-124
+Time: 8294.0ms
+Rows: 124, Columns: 8
+Size: 13.4KB
+
+Processing: test_table124.csv
+Thread: Thread-125
+Time: 5482.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table125.csv
+Thread: Thread-126
+Time: 6877.0ms
+Rows: 119, Columns: 8
+Size: 12.8KB
+
+Processing: test_table126.csv
+Thread: Thread-127
+Time: 7751.0ms
+Rows: 152, Columns: 8
+Size: 16.2KB
+
+Processing: test_table127.csv
+Thread: Thread-128
+Time: 7631.0ms
+Rows: 140, Columns: 8
+Size: 14.9KB
+
+Processing: test_table128.csv
+Thread: Thread-129
+Time: 8272.0ms
+Rows: 134, Columns: 8
+Size: 14.5KB
+
+Processing: test_table129.csv
+Thread: Thread-130
+Time: 7513.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table13.csv
+Thread: Thread-14
+Time: 7221.0ms
+Rows: 129, Columns: 8
+Size: 13.9KB
+
+Processing: test_table130.csv
+Thread: Thread-131
+Time: 6447.0ms
+Rows: 153, Columns: 8
+Size: 16.4KB
+
+Processing: test_table131.csv
+Thread: Thread-132
+Time: 8112.0ms
+Rows: 124, Columns: 8
+Size: 13.3KB
+
+Processing: test_table132.csv
+Thread: Thread-133
+Time: 7142.0ms
+Rows: 148, Columns: 8
+Size: 16.0KB
+
+Processing: test_table133.csv
+Thread: Thread-134
+Time: 8400.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table134.csv
+Thread: Thread-135
+Time: 5982.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table135.csv
+Thread: Thread-136
+Time: 8290.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table136.csv
+Thread: Thread-137
+Time: 8318.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table137.csv
+Thread: Thread-138
+Time: 6080.0ms
+Rows: 143, Columns: 8
+Size: 15.3KB
+
+Processing: test_table138.csv
+Thread: Thread-139
+Time: 7777.0ms
+Rows: 129, Columns: 8
+Size: 13.9KB
+
+Processing: test_table139.csv
+Thread: Thread-140
+Time: 8025.0ms
+Rows: 115, Columns: 8
+Size: 12.3KB
+
+Processing: test_table14.csv
+Thread: Thread-15
+Time: 5734.0ms
+Rows: 125, Columns: 8
+Size: 13.6KB
+
+Processing: test_table140.csv
+Thread: Thread-141
+Time: 6440.0ms
+Rows: 146, Columns: 8
+Size: 15.6KB
+
+Processing: test_table141.csv
+Thread: Thread-142
+Time: 7037.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table142.csv
+Thread: Thread-143
+Time: 7152.0ms
+Rows: 120, Columns: 8
+Size: 12.8KB
+
+Processing: test_table143.csv
+Thread: Thread-144
+Time: 7913.0ms
+Rows: 151, Columns: 8
+Size: 16.3KB
+
+Processing: test_table144.csv
+Thread: Thread-145
+Time: 5745.0ms
+Rows: 113, Columns: 8
+Size: 12.3KB
+
+Processing: test_table145.csv
+Thread: Thread-146
+Time: 7032.0ms
+Rows: 141, Columns: 8
+Size: 15.2KB
+
+Processing: test_table146.csv
+Thread: Thread-147
+Time: 7931.0ms
+Rows: 152, Columns: 8
+Size: 16.2KB
+
+Processing: test_table147.csv
+Thread: Thread-148
+Time: 7754.0ms
+Rows: 124, Columns: 8
+Size: 13.4KB
+
+Processing: test_table148.csv
+Thread: Thread-149
+Time: 8193.0ms
+Rows: 150, Columns: 8
+Size: 16.1KB
+
+Processing: test_table149.csv
+Thread: Thread-150
+Time: 5742.0ms
+Rows: 126, Columns: 8
+Size: 13.7KB
+
+Processing: test_table15.csv
+Thread: Thread-16
+Time: 6206.0ms
+Rows: 130, Columns: 8
+Size: 13.8KB
+
+Processing: test_table150.csv
+Thread: Thread-151
+Time: 6820.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table151.csv
+Thread: Thread-152
+Time: 8131.0ms
+Rows: 124, Columns: 8
+Size: 13.4KB
+
+Processing: test_table152.csv
+Thread: Thread-153
+Time: 6786.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table153.csv
+Thread: Thread-154
+Time: 8020.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table154.csv
+Thread: Thread-155
+Time: 5714.0ms
+Rows: 149, Columns: 8
+Size: 16.0KB
+
+Processing: test_table155.csv
+Thread: Thread-156
+Time: 5550.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table156.csv
+Thread: Thread-157
+Time: 5751.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table157.csv
+Thread: Thread-158
+Time: 7103.0ms
+Rows: 129, Columns: 8
+Size: 13.8KB
+
+Processing: test_table158.csv
+Thread: Thread-159
+Time: 8237.0ms
+Rows: 127, Columns: 8
+Size: 13.6KB
+
+Processing: test_table159.csv
+Thread: Thread-160
+Time: 5705.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table16.csv
+Thread: Thread-17
+Time: 7459.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table160.csv
+Thread: Thread-161
+Time: 8010.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table161.csv
+Thread: Thread-162
+Time: 6329.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table162.csv
+Thread: Thread-163
+Time: 6679.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table163.csv
+Thread: Thread-164
+Time: 8284.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table164.csv
+Thread: Thread-165
+Time: 7640.0ms
+Rows: 159, Columns: 8
+Size: 17.0KB
+
+Processing: test_table165.csv
+Thread: Thread-166
+Time: 6340.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table166.csv
+Thread: Thread-167
+Time: 7927.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table167.csv
+Thread: Thread-168
+Time: 5478.0ms
+Rows: 115, Columns: 8
+Size: 12.5KB
+
+Processing: test_table168.csv
+Thread: Thread-169
+Time: 7874.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table169.csv
+Thread: Thread-170
+Time: 7570.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table17.csv
+Thread: Thread-18
+Time: 6345.0ms
+Rows: 135, Columns: 8
+Size: 14.6KB
+
+Processing: test_table170.csv
+Thread: Thread-171
+Time: 7415.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table171.csv
+Thread: Thread-172
+Time: 6204.0ms
+Rows: 152, Columns: 8
+Size: 16.2KB
+
+Processing: test_table172.csv
+Thread: Thread-173
+Time: 5714.0ms
+Rows: 128, Columns: 8
+Size: 13.8KB
+
+Processing: test_table173.csv
+Thread: Thread-174
+Time: 7519.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table174.csv
+Thread: Thread-175
+Time: 7682.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table175.csv
+Thread: Thread-176
+Time: 8249.0ms
+Rows: 123, Columns: 8
+Size: 13.3KB
+
+Processing: test_table176.csv
+Thread: Thread-177
+Time: 7710.0ms
+Rows: 140, Columns: 8
+Size: 14.9KB
+
+Processing: test_table177.csv
+Thread: Thread-178
+Time: 7410.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table178.csv
+Thread: Thread-179
+Time: 8166.0ms
+Rows: 146, Columns: 8
+Size: 15.9KB
+
+Processing: test_table179.csv
+Thread: Thread-180
+Time: 8350.0ms
+Rows: 121, Columns: 8
+Size: 13.1KB
+
+Processing: test_table18.csv
+Thread: Thread-19
+Time: 7424.0ms
+Rows: 135, Columns: 8
+Size: 14.7KB
+
+Processing: test_table180.csv
+Thread: Thread-181
+Time: 6765.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table181.csv
+Thread: Thread-182
+Time: 7863.0ms
+Rows: 151, Columns: 8
+Size: 16.3KB
+
+Processing: test_table182.csv
+Thread: Thread-183
+Time: 7796.0ms
+Rows: 144, Columns: 8
+Size: 15.4KB
+
+Processing: test_table183.csv
+Thread: Thread-184
+Time: 8226.0ms
+Rows: 120, Columns: 8
+Size: 13.0KB
+
+Processing: test_table184.csv
+Thread: Thread-185
+Time: 8184.0ms
+Rows: 143, Columns: 8
+Size: 15.3KB
+
+Processing: test_table185.csv
+Thread: Thread-186
+Time: 5553.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table186.csv
+Thread: Thread-187
+Time: 8267.0ms
+Rows: 137, Columns: 8
+Size: 14.6KB
+
+Processing: test_table187.csv
+Thread: Thread-188
+Time: 8022.0ms
+Rows: 147, Columns: 8
+Size: 15.7KB
+
+Processing: test_table188.csv
+Thread: Thread-189
+Time: 5671.0ms
+Rows: 148, Columns: 8
+Size: 15.9KB
+
+Processing: test_table189.csv
+Thread: Thread-190
+Time: 6305.0ms
+Rows: 142, Columns: 8
+Size: 15.3KB
+
+Processing: test_table19.csv
+Thread: Thread-20
+Time: 8205.0ms
+Rows: 155, Columns: 8
+Size: 16.7KB
+
+Processing: test_table190.csv
+Thread: Thread-191
+Time: 5413.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table191.csv
+Thread: Thread-192
+Time: 6934.0ms
+Rows: 151, Columns: 8
+Size: 16.3KB
+
+Processing: test_table192.csv
+Thread: Thread-193
+Time: 7717.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table193.csv
+Thread: Thread-194
+Time: 7731.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table194.csv
+Thread: Thread-195
+Time: 8068.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table195.csv
+Thread: Thread-196
+Time: 8191.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table196.csv
+Thread: Thread-197
+Time: 5573.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table197.csv
+Thread: Thread-198
+Time: 7662.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table198.csv
+Thread: Thread-199
+Time: 7683.0ms
+Rows: 141, Columns: 8
+Size: 15.2KB
+
+Processing: test_table199.csv
+Thread: Thread-200
+Time: 7616.0ms
+Rows: 137, Columns: 8
+Size: 14.5KB
+
+Processing: test_table2.csv
+Thread: Thread-3
+Time: 6135.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table20.csv
+Thread: Thread-21
+Time: 8457.0ms
+Rows: 123, Columns: 8
+Size: 13.3KB
+
+Processing: test_table200.csv
+Thread: Thread-201
+Time: 7516.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table201.csv
+Thread: Thread-202
+Time: 7367.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table202.csv
+Thread: Thread-203
+Time: 7818.0ms
+Rows: 139, Columns: 8
+Size: 14.8KB
+
+Processing: test_table203.csv
+Thread: Thread-204
+Time: 7754.0ms
+Rows: 133, Columns: 8
+Size: 14.2KB
+
+Processing: test_table204.csv
+Thread: Thread-205
+Time: 7783.0ms
+Rows: 143, Columns: 8
+Size: 15.2KB
+
+Processing: test_table205.csv
+Thread: Thread-206
+Time: 6332.0ms
+Rows: 156, Columns: 8
+Size: 16.7KB
+
+Processing: test_table206.csv
+Thread: Thread-207
+Time: 6726.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table207.csv
+Thread: Thread-208
+Time: 8093.0ms
+Rows: 121, Columns: 8
+Size: 13.0KB
+
+Processing: test_table208.csv
+Thread: Thread-209
+Time: 6274.0ms
+Rows: 145, Columns: 8
+Size: 15.7KB
+
+Processing: test_table209.csv
+Thread: Thread-210
+Time: 5167.0ms
+Rows: 124, Columns: 8
+Size: 13.2KB
+
+Processing: test_table21.csv
+Thread: Thread-22
+Time: 8644.0ms
+Rows: 130, Columns: 8
+Size: 14.2KB
+
+Processing: test_table210.csv
+Thread: Thread-211
+Time: 7634.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table211.csv
+Thread: Thread-212
+Time: 5658.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table212.csv
+Thread: Thread-213
+Time: 6657.0ms
+Rows: 135, Columns: 8
+Size: 14.4KB
+
+Processing: test_table213.csv
+Thread: Thread-214
+Time: 7658.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table214.csv
+Thread: Thread-215
+Time: 7780.0ms
+Rows: 147, Columns: 8
+Size: 15.7KB
+
+Processing: test_table215.csv
+Thread: Thread-216
+Time: 7388.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table216.csv
+Thread: Thread-217
+Time: 8198.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table217.csv
+Thread: Thread-218
+Time: 5429.0ms
+Rows: 125, Columns: 8
+Size: 13.5KB
+
+Processing: test_table218.csv
+Thread: Thread-219
+Time: 7444.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table219.csv
+Thread: Thread-220
+Time: 6950.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table22.csv
+Thread: Thread-23
+Time: 8269.0ms
+Rows: 138, Columns: 8
+Size: 14.7KB
+
+Processing: test_table220.csv
+Thread: Thread-221
+Time: 7367.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table221.csv
+Thread: Thread-222
+Time: 6976.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table222.csv
+Thread: Thread-223
+Time: 7614.0ms
+Rows: 120, Columns: 8
+Size: 12.9KB
+
+Processing: test_table223.csv
+Thread: Thread-224
+Time: 6429.0ms
+Rows: 118, Columns: 8
+Size: 12.6KB
+
+Processing: test_table224.csv
+Thread: Thread-225
+Time: 5628.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table225.csv
+Thread: Thread-226
+Time: 7597.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table226.csv
+Thread: Thread-227
+Time: 7625.0ms
+Rows: 142, Columns: 8
+Size: 15.1KB
+
+Processing: test_table227.csv
+Thread: Thread-228
+Time: 6911.0ms
+Rows: 120, Columns: 8
+Size: 12.8KB
+
+Processing: test_table228.csv
+Thread: Thread-229
+Time: 7759.0ms
+Rows: 122, Columns: 8
+Size: 13.2KB
+
+Processing: test_table229.csv
+Thread: Thread-230
+Time: 5123.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table23.csv
+Thread: Thread-24
+Time: 6768.0ms
+Rows: 132, Columns: 8
+Size: 14.0KB
+
+Processing: test_table230.csv
+Thread: Thread-231
+Time: 7517.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table231.csv
+Thread: Thread-232
+Time: 7429.0ms
+Rows: 147, Columns: 8
+Size: 15.7KB
+
+Processing: test_table232.csv
+Thread: Thread-233
+Time: 7560.0ms
+Rows: 128, Columns: 8
+Size: 13.8KB
+
+Processing: test_table233.csv
+Thread: Thread-234
+Time: 4947.0ms
+Rows: 133, Columns: 8
+Size: 14.2KB
+
+Processing: test_table234.csv
+Thread: Thread-235
+Time: 8155.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table235.csv
+Thread: Thread-236
+Time: 7426.0ms
+Rows: 114, Columns: 8
+Size: 12.2KB
+
+Processing: test_table236.csv
+Thread: Thread-237
+Time: 8029.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table237.csv
+Thread: Thread-238
+Time: 6632.0ms
+Rows: 120, Columns: 8
+Size: 12.9KB
+
+Processing: test_table238.csv
+Thread: Thread-239
+Time: 8064.0ms
+Rows: 145, Columns: 8
+Size: 15.5KB
+
+Processing: test_table239.csv
+Thread: Thread-240
+Time: 6582.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table24.csv
+Thread: Thread-25
+Time: 8806.0ms
+Rows: 133, Columns: 8
+Size: 14.2KB
+
+Processing: test_table240.csv
+Thread: Thread-241
+Time: 7526.0ms
+Rows: 135, Columns: 8
+Size: 14.4KB
+
+Processing: test_table241.csv
+Thread: Thread-242
+Time: 7230.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table242.csv
+Thread: Thread-243
+Time: 7561.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table243.csv
+Thread: Thread-244
+Time: 7997.0ms
+Rows: 125, Columns: 8
+Size: 13.5KB
+
+Processing: test_table244.csv
+Thread: Thread-245
+Time: 7773.0ms
+Rows: 165, Columns: 8
+Size: 17.7KB
+
+Processing: test_table245.csv
+Thread: Thread-246
+Time: 7565.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table246.csv
+Thread: Thread-247
+Time: 5286.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table247.csv
+Thread: Thread-248
+Time: 7587.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table248.csv
+Thread: Thread-249
+Time: 7689.0ms
+Rows: 153, Columns: 8
+Size: 16.3KB
+
+Processing: test_table249.csv
+Thread: Thread-250
+Time: 5100.0ms
+Rows: 134, Columns: 8
+Size: 14.5KB
+
+Processing: test_table25.csv
+Thread: Thread-26
+Time: 8647.0ms
+Rows: 151, Columns: 8
+Size: 16.3KB
+
+Processing: test_table250.csv
+Thread: Thread-251
+Time: 5418.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table251.csv
+Thread: Thread-252
+Time: 8011.0ms
+Rows: 144, Columns: 8
+Size: 15.4KB
+
+Processing: test_table252.csv
+Thread: Thread-253
+Time: 8165.0ms
+Rows: 128, Columns: 8
+Size: 13.8KB
+
+Processing: test_table253.csv
+Thread: Thread-254
+Time: 7505.0ms
+Rows: 118, Columns: 8
+Size: 12.8KB
+
+Processing: test_table254.csv
+Thread: Thread-255
+Time: 4732.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table255.csv
+Thread: Thread-256
+Time: 7560.0ms
+Rows: 124, Columns: 8
+Size: 13.2KB
+
+Processing: test_table256.csv
+Thread: Thread-257
+Time: 7902.0ms
+Rows: 153, Columns: 8
+Size: 16.3KB
+
+Processing: test_table257.csv
+Thread: Thread-258
+Time: 6583.0ms
+Rows: 125, Columns: 8
+Size: 13.6KB
+
+Processing: test_table258.csv
+Thread: Thread-259
+Time: 6096.0ms
+Rows: 150, Columns: 8
+Size: 16.0KB
+
+Processing: test_table259.csv
+Thread: Thread-260
+Time: 7977.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table26.csv
+Thread: Thread-27
+Time: 5933.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table260.csv
+Thread: Thread-261
+Time: 6826.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table261.csv
+Thread: Thread-262
+Time: 7307.0ms
+Rows: 146, Columns: 8
+Size: 15.6KB
+
+Processing: test_table262.csv
+Thread: Thread-263
+Time: 7321.0ms
+Rows: 118, Columns: 8
+Size: 12.8KB
+
+Processing: test_table263.csv
+Thread: Thread-264
+Time: 7729.0ms
+Rows: 129, Columns: 8
+Size: 13.8KB
+
+Processing: test_table264.csv
+Thread: Thread-265
+Time: 7642.0ms
+Rows: 120, Columns: 8
+Size: 12.8KB
+
+Processing: test_table265.csv
+Thread: Thread-266
+Time: 7162.0ms
+Rows: 127, Columns: 8
+Size: 13.5KB
+
+Processing: test_table266.csv
+Thread: Thread-267
+Time: 7976.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table267.csv
+Thread: Thread-268
+Time: 5296.0ms
+Rows: 106, Columns: 8
+Size: 11.4KB
+
+Processing: test_table268.csv
+Thread: Thread-269
+Time: 7920.0ms
+Rows: 142, Columns: 8
+Size: 15.1KB
+
+Processing: test_table269.csv
+Thread: Thread-270
+Time: 8069.0ms
+Rows: 156, Columns: 8
+Size: 16.7KB
+
+Processing: test_table27.csv
+Thread: Thread-28
+Time: 8266.0ms
+Rows: 123, Columns: 8
+Size: 13.2KB
+
+Processing: test_table270.csv
+Thread: Thread-271
+Time: 8043.0ms
+Rows: 128, Columns: 8
+Size: 13.8KB
+
+Processing: test_table271.csv
+Thread: Thread-272
+Time: 5515.0ms
+Rows: 128, Columns: 8
+Size: 13.8KB
+
+Processing: test_table272.csv
+Thread: Thread-273
+Time: 7211.0ms
+Rows: 153, Columns: 8
+Size: 16.4KB
+
+Processing: test_table273.csv
+Thread: Thread-274
+Time: 7602.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table274.csv
+Thread: Thread-275
+Time: 7681.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table275.csv
+Thread: Thread-276
+Time: 6802.0ms
+Rows: 132, Columns: 8
+Size: 14.1KB
+
+Processing: test_table276.csv
+Thread: Thread-277
+Time: 5543.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table277.csv
+Thread: Thread-278
+Time: 5637.0ms
+Rows: 142, Columns: 8
+Size: 15.1KB
+
+Processing: test_table278.csv
+Thread: Thread-279
+Time: 7546.0ms
+Rows: 153, Columns: 8
+Size: 16.3KB
+
+Processing: test_table279.csv
+Thread: Thread-280
+Time: 5942.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table28.csv
+Thread: Thread-29
+Time: 7255.0ms
+Rows: 134, Columns: 8
+Size: 14.3KB
+
+Processing: test_table280.csv
+Thread: Thread-281
+Time: 7560.0ms
+Rows: 149, Columns: 8
+Size: 16.0KB
+
+Processing: test_table281.csv
+Thread: Thread-282
+Time: 7131.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table282.csv
+Thread: Thread-283
+Time: 6692.0ms
+Rows: 142, Columns: 8
+Size: 15.3KB
+
+Processing: test_table283.csv
+Thread: Thread-284
+Time: 6765.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table284.csv
+Thread: Thread-285
+Time: 7859.0ms
+Rows: 128, Columns: 8
+Size: 13.9KB
+
+Processing: test_table285.csv
+Thread: Thread-286
+Time: 7614.0ms
+Rows: 141, Columns: 8
+Size: 15.2KB
+
+Processing: test_table286.csv
+Thread: Thread-287
+Time: 7444.0ms
+Rows: 143, Columns: 8
+Size: 15.3KB
+
+Processing: test_table287.csv
+Thread: Thread-288
+Time: 7207.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table288.csv
+Thread: Thread-289
+Time: 7518.0ms
+Rows: 136, Columns: 8
+Size: 14.4KB
+
+Processing: test_table289.csv
+Thread: Thread-290
+Time: 7802.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table29.csv
+Thread: Thread-30
+Time: 8058.0ms
+Rows: 148, Columns: 8
+Size: 15.9KB
+
+Processing: test_table290.csv
+Thread: Thread-291
+Time: 7888.0ms
+Rows: 130, Columns: 8
+Size: 13.8KB
+
+Processing: test_table291.csv
+Thread: Thread-292
+Time: 5084.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table292.csv
+Thread: Thread-293
+Time: 7989.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table293.csv
+Thread: Thread-294
+Time: 7118.0ms
+Rows: 123, Columns: 8
+Size: 13.3KB
+
+Processing: test_table294.csv
+Thread: Thread-295
+Time: 7411.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table295.csv
+Thread: Thread-296
+Time: 7428.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table296.csv
+Thread: Thread-297
+Time: 7263.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table297.csv
+Thread: Thread-298
+Time: 7338.0ms
+Rows: 167, Columns: 8
+Size: 18.0KB
+
+Processing: test_table298.csv
+Thread: Thread-299
+Time: 7785.0ms
+Rows: 143, Columns: 8
+Size: 15.5KB
+
+Processing: test_table299.csv
+Thread: Thread-300
+Time: 7211.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table3.csv
+Thread: Thread-4
+Time: 8353.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table30.csv
+Thread: Thread-31
+Time: 8297.0ms
+Rows: 130, Columns: 8
+Size: 13.9KB
+
+Processing: test_table300.csv
+Thread: Thread-301
+Time: 7679.0ms
+Rows: 127, Columns: 8
+Size: 13.6KB
+
+Processing: test_table301.csv
+Thread: Thread-302
+Time: 7103.0ms
+Rows: 121, Columns: 8
+Size: 13.1KB
+
+Processing: test_table302.csv
+Thread: Thread-303
+Time: 5370.0ms
+Rows: 144, Columns: 8
+Size: 15.3KB
+
+Processing: test_table303.csv
+Thread: Thread-304
+Time: 8012.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table304.csv
+Thread: Thread-305
+Time: 7415.0ms
+Rows: 120, Columns: 8
+Size: 12.9KB
+
+Processing: test_table305.csv
+Thread: Thread-306
+Time: 7333.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table306.csv
+Thread: Thread-307
+Time: 7699.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table307.csv
+Thread: Thread-308
+Time: 7972.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table308.csv
+Thread: Thread-309
+Time: 8094.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table309.csv
+Thread: Thread-310
+Time: 5998.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table31.csv
+Thread: Thread-32
+Time: 8326.0ms
+Rows: 135, Columns: 8
+Size: 14.6KB
+
+Processing: test_table310.csv
+Thread: Thread-311
+Time: 5200.0ms
+Rows: 142, Columns: 8
+Size: 15.4KB
+
+Processing: test_table311.csv
+Thread: Thread-312
+Time: 7441.0ms
+Rows: 151, Columns: 8
+Size: 16.1KB
+
+Processing: test_table312.csv
+Thread: Thread-313
+Time: 6434.0ms
+Rows: 129, Columns: 8
+Size: 13.9KB
+
+Processing: test_table313.csv
+Thread: Thread-314
+Time: 5128.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table314.csv
+Thread: Thread-315
+Time: 6750.0ms
+Rows: 123, Columns: 8
+Size: 13.2KB
+
+Processing: test_table315.csv
+Thread: Thread-316
+Time: 5175.0ms
+Rows: 125, Columns: 8
+Size: 13.6KB
+
+Processing: test_table316.csv
+Thread: Thread-317
+Time: 6423.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table317.csv
+Thread: Thread-318
+Time: 7543.0ms
+Rows: 149, Columns: 8
+Size: 16.1KB
+
+Processing: test_table318.csv
+Thread: Thread-319
+Time: 6037.0ms
+Rows: 161, Columns: 8
+Size: 17.3KB
+
+Processing: test_table319.csv
+Thread: Thread-320
+Time: 7838.0ms
+Rows: 130, Columns: 8
+Size: 13.9KB
+
+Processing: test_table32.csv
+Thread: Thread-33
+Time: 8601.0ms
+Rows: 136, Columns: 8
+Size: 14.5KB
+
+Processing: test_table320.csv
+Thread: Thread-321
+Time: 7816.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table321.csv
+Thread: Thread-322
+Time: 6746.0ms
+Rows: 143, Columns: 8
+Size: 15.5KB
+
+Processing: test_table322.csv
+Thread: Thread-323
+Time: 7741.0ms
+Rows: 132, Columns: 8
+Size: 14.1KB
+
+Processing: test_table323.csv
+Thread: Thread-324
+Time: 7888.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table324.csv
+Thread: Thread-325
+Time: 6219.0ms
+Rows: 125, Columns: 8
+Size: 13.6KB
+
+Processing: test_table325.csv
+Thread: Thread-326
+Time: 7397.0ms
+Rows: 117, Columns: 8
+Size: 12.5KB
+
+Processing: test_table326.csv
+Thread: Thread-327
+Time: 7396.0ms
+Rows: 112, Columns: 8
+Size: 11.9KB
+
+Processing: test_table327.csv
+Thread: Thread-328
+Time: 7908.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table328.csv
+Thread: Thread-329
+Time: 5310.0ms
+Rows: 152, Columns: 8
+Size: 16.2KB
+
+Processing: test_table329.csv
+Thread: Thread-330
+Time: 5941.0ms
+Rows: 135, Columns: 8
+Size: 14.4KB
+
+Processing: test_table33.csv
+Thread: Thread-34
+Time: 8118.0ms
+Rows: 147, Columns: 8
+Size: 15.9KB
+
+Processing: test_table330.csv
+Thread: Thread-331
+Time: 7043.0ms
+Rows: 121, Columns: 8
+Size: 12.9KB
+
+Processing: test_table331.csv
+Thread: Thread-332
+Time: 7788.0ms
+Rows: 115, Columns: 8
+Size: 12.3KB
+
+Processing: test_table332.csv
+Thread: Thread-333
+Time: 5388.0ms
+Rows: 114, Columns: 8
+Size: 12.3KB
+
+Processing: test_table333.csv
+Thread: Thread-334
+Time: 4927.0ms
+Rows: 142, Columns: 8
+Size: 15.1KB
+
+Processing: test_table334.csv
+Thread: Thread-335
+Time: 7182.0ms
+Rows: 126, Columns: 8
+Size: 13.5KB
+
+Processing: test_table335.csv
+Thread: Thread-336
+Time: 7383.0ms
+Rows: 142, Columns: 8
+Size: 15.4KB
+
+Processing: test_table336.csv
+Thread: Thread-337
+Time: 7826.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table337.csv
+Thread: Thread-338
+Time: 5111.0ms
+Rows: 148, Columns: 8
+Size: 15.8KB
+
+Processing: test_table338.csv
+Thread: Thread-339
+Time: 5866.0ms
+Rows: 153, Columns: 8
+Size: 16.4KB
+
+Processing: test_table339.csv
+Thread: Thread-340
+Time: 7638.0ms
+Rows: 151, Columns: 8
+Size: 16.1KB
+
+Processing: test_table34.csv
+Thread: Thread-35
+Time: 7776.0ms
+Rows: 131, Columns: 8
+Size: 13.9KB
+
+Processing: test_table340.csv
+Thread: Thread-341
+Time: 7342.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table341.csv
+Thread: Thread-342
+Time: 5065.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table342.csv
+Thread: Thread-343
+Time: 7340.0ms
+Rows: 121, Columns: 8
+Size: 13.1KB
+
+Processing: test_table343.csv
+Thread: Thread-344
+Time: 7455.0ms
+Rows: 125, Columns: 8
+Size: 13.5KB
+
+Processing: test_table344.csv
+Thread: Thread-345
+Time: 5312.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table345.csv
+Thread: Thread-346
+Time: 6403.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table346.csv
+Thread: Thread-347
+Time: 7108.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table347.csv
+Thread: Thread-348
+Time: 7339.0ms
+Rows: 142, Columns: 8
+Size: 15.1KB
+
+Processing: test_table348.csv
+Thread: Thread-349
+Time: 7710.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table349.csv
+Thread: Thread-350
+Time: 7017.0ms
+Rows: 153, Columns: 8
+Size: 16.6KB
+
+Processing: test_table35.csv
+Thread: Thread-36
+Time: 7428.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table350.csv
+Thread: Thread-351
+Time: 7470.0ms
+Rows: 162, Columns: 8
+Size: 17.3KB
+
+Processing: test_table351.csv
+Thread: Thread-352
+Time: 6006.0ms
+Rows: 156, Columns: 8
+Size: 16.7KB
+
+Processing: test_table352.csv
+Thread: Thread-353
+Time: 5931.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table353.csv
+Thread: Thread-354
+Time: 7072.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table354.csv
+Thread: Thread-355
+Time: 7316.0ms
+Rows: 149, Columns: 8
+Size: 15.9KB
+
+Processing: test_table355.csv
+Thread: Thread-356
+Time: 7462.0ms
+Rows: 137, Columns: 8
+Size: 14.6KB
+
+Processing: test_table356.csv
+Thread: Thread-357
+Time: 5969.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table357.csv
+Thread: Thread-358
+Time: 5905.0ms
+Rows: 146, Columns: 8
+Size: 15.5KB
+
+Processing: test_table358.csv
+Thread: Thread-359
+Time: 6570.0ms
+Rows: 131, Columns: 8
+Size: 13.9KB
+
+Processing: test_table359.csv
+Thread: Thread-360
+Time: 7807.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table36.csv
+Thread: Thread-37
+Time: 8436.0ms
+Rows: 137, Columns: 8
+Size: 14.6KB
+
+Processing: test_table360.csv
+Thread: Thread-361
+Time: 5332.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table361.csv
+Thread: Thread-362
+Time: 7406.0ms
+Rows: 162, Columns: 8
+Size: 17.4KB
+
+Processing: test_table362.csv
+Thread: Thread-363
+Time: 7142.0ms
+Rows: 142, Columns: 8
+Size: 15.3KB
+
+Processing: test_table363.csv
+Thread: Thread-364
+Time: 5006.0ms
+Rows: 116, Columns: 8
+Size: 12.6KB
+
+Processing: test_table364.csv
+Thread: Thread-365
+Time: 7852.0ms
+Rows: 154, Columns: 8
+Size: 16.6KB
+
+Processing: test_table365.csv
+Thread: Thread-366
+Time: 5029.0ms
+Rows: 148, Columns: 8
+Size: 15.9KB
+
+Processing: test_table366.csv
+Thread: Thread-367
+Time: 7319.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table367.csv
+Thread: Thread-368
+Time: 7073.0ms
+Rows: 146, Columns: 8
+Size: 15.5KB
+
+Processing: test_table368.csv
+Thread: Thread-369
+Time: 7467.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table369.csv
+Thread: Thread-370
+Time: 5909.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table37.csv
+Thread: Thread-38
+Time: 8231.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table370.csv
+Thread: Thread-371
+Time: 7351.0ms
+Rows: 146, Columns: 8
+Size: 15.8KB
+
+Processing: test_table371.csv
+Thread: Thread-372
+Time: 6611.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table372.csv
+Thread: Thread-373
+Time: 5955.0ms
+Rows: 127, Columns: 8
+Size: 13.6KB
+
+Processing: test_table373.csv
+Thread: Thread-374
+Time: 5919.0ms
+Rows: 141, Columns: 8
+Size: 15.2KB
+
+Processing: test_table374.csv
+Thread: Thread-375
+Time: 5904.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table375.csv
+Thread: Thread-376
+Time: 7281.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table376.csv
+Thread: Thread-377
+Time: 7852.0ms
+Rows: 148, Columns: 8
+Size: 15.9KB
+
+Processing: test_table377.csv
+Thread: Thread-378
+Time: 7108.0ms
+Rows: 118, Columns: 8
+Size: 12.8KB
+
+Processing: test_table378.csv
+Thread: Thread-379
+Time: 6346.0ms
+Rows: 124, Columns: 8
+Size: 13.2KB
+
+Processing: test_table379.csv
+Thread: Thread-380
+Time: 7112.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table38.csv
+Thread: Thread-39
+Time: 8062.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table380.csv
+Thread: Thread-381
+Time: 5917.0ms
+Rows: 167, Columns: 8
+Size: 17.8KB
+
+Processing: test_table381.csv
+Thread: Thread-382
+Time: 4996.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table382.csv
+Thread: Thread-383
+Time: 7295.0ms
+Rows: 152, Columns: 8
+Size: 16.2KB
+
+Processing: test_table383.csv
+Thread: Thread-384
+Time: 5934.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table384.csv
+Thread: Thread-385
+Time: 7320.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table385.csv
+Thread: Thread-386
+Time: 6305.0ms
+Rows: 128, Columns: 8
+Size: 13.8KB
+
+Processing: test_table386.csv
+Thread: Thread-387
+Time: 7247.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table387.csv
+Thread: Thread-388
+Time: 6225.0ms
+Rows: 129, Columns: 8
+Size: 14.0KB
+
+Processing: test_table388.csv
+Thread: Thread-389
+Time: 5165.0ms
+Rows: 148, Columns: 8
+Size: 15.9KB
+
+Processing: test_table389.csv
+Thread: Thread-390
+Time: 5011.0ms
+Rows: 144, Columns: 8
+Size: 15.4KB
+
+Processing: test_table39.csv
+Thread: Thread-40
+Time: 7407.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table390.csv
+Thread: Thread-391
+Time: 7523.0ms
+Rows: 119, Columns: 8
+Size: 12.8KB
+
+Processing: test_table391.csv
+Thread: Thread-392
+Time: 6212.0ms
+Rows: 125, Columns: 8
+Size: 13.6KB
+
+Processing: test_table392.csv
+Thread: Thread-393
+Time: 7025.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table393.csv
+Thread: Thread-394
+Time: 7223.0ms
+Rows: 146, Columns: 8
+Size: 15.6KB
+
+Processing: test_table394.csv
+Thread: Thread-395
+Time: 7389.0ms
+Rows: 117, Columns: 8
+Size: 12.7KB
+
+Processing: test_table395.csv
+Thread: Thread-396
+Time: 6194.0ms
+Rows: 152, Columns: 8
+Size: 16.3KB
+
+Processing: test_table396.csv
+Thread: Thread-397
+Time: 5402.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table397.csv
+Thread: Thread-398
+Time: 7668.0ms
+Rows: 129, Columns: 8
+Size: 13.9KB
+
+Processing: test_table398.csv
+Thread: Thread-399
+Time: 4919.0ms
+Rows: 135, Columns: 8
+Size: 14.4KB
+
+Processing: test_table399.csv
+Thread: Thread-400
+Time: 7166.0ms
+Rows: 138, Columns: 8
+Size: 14.7KB
+
+Processing: test_table4.csv
+Thread: Thread-5
+Time: 7929.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table40.csv
+Thread: Thread-41
+Time: 8573.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table400.csv
+Thread: Thread-401
+Time: 5169.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table401.csv
+Thread: Thread-402
+Time: 7694.0ms
+Rows: 119, Columns: 8
+Size: 12.9KB
+
+Processing: test_table402.csv
+Thread: Thread-403
+Time: 7601.0ms
+Rows: 137, Columns: 8
+Size: 14.6KB
+
+Processing: test_table403.csv
+Thread: Thread-404
+Time: 7239.0ms
+Rows: 155, Columns: 8
+Size: 16.7KB
+
+Processing: test_table404.csv
+Thread: Thread-405
+Time: 5765.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table405.csv
+Thread: Thread-406
+Time: 7000.0ms
+Rows: 132, Columns: 8
+Size: 14.3KB
+
+Processing: test_table406.csv
+Thread: Thread-407
+Time: 6981.0ms
+Rows: 117, Columns: 8
+Size: 12.6KB
+
+Processing: test_table407.csv
+Thread: Thread-408
+Time: 6958.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table408.csv
+Thread: Thread-409
+Time: 7365.0ms
+Rows: 134, Columns: 8
+Size: 14.3KB
+
+Processing: test_table409.csv
+Thread: Thread-410
+Time: 4663.0ms
+Rows: 144, Columns: 8
+Size: 15.4KB
+
+Processing: test_table41.csv
+Thread: Thread-42
+Time: 7798.0ms
+Rows: 151, Columns: 8
+Size: 16.2KB
+
+Processing: test_table410.csv
+Thread: Thread-411
+Time: 7696.0ms
+Rows: 145, Columns: 8
+Size: 15.7KB
+
+Processing: test_table411.csv
+Thread: Thread-412
+Time: 7596.0ms
+Rows: 126, Columns: 8
+Size: 13.4KB
+
+Processing: test_table412.csv
+Thread: Thread-413
+Time: 4971.0ms
+Rows: 131, Columns: 8
+Size: 14.2KB
+
+Processing: test_table413.csv
+Thread: Thread-414
+Time: 7531.0ms
+Rows: 154, Columns: 8
+Size: 16.4KB
+
+Processing: test_table414.csv
+Thread: Thread-415
+Time: 4980.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table415.csv
+Thread: Thread-416
+Time: 7664.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table416.csv
+Thread: Thread-417
+Time: 6415.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table417.csv
+Thread: Thread-418
+Time: 6838.0ms
+Rows: 161, Columns: 8
+Size: 17.2KB
+
+Processing: test_table418.csv
+Thread: Thread-419
+Time: 6361.0ms
+Rows: 126, Columns: 8
+Size: 13.5KB
+
+Processing: test_table419.csv
+Thread: Thread-420
+Time: 7574.0ms
+Rows: 143, Columns: 8
+Size: 15.5KB
+
+Processing: test_table42.csv
+Thread: Thread-43
+Time: 8682.0ms
+Rows: 144, Columns: 8
+Size: 15.6KB
+
+Processing: test_table420.csv
+Thread: Thread-421
+Time: 7065.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table421.csv
+Thread: Thread-422
+Time: 6114.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table422.csv
+Thread: Thread-423
+Time: 7122.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table423.csv
+Thread: Thread-424
+Time: 5044.0ms
+Rows: 108, Columns: 8
+Size: 11.6KB
+
+Processing: test_table424.csv
+Thread: Thread-425
+Time: 6920.0ms
+Rows: 146, Columns: 8
+Size: 15.8KB
+
+Processing: test_table425.csv
+Thread: Thread-426
+Time: 5335.0ms
+Rows: 129, Columns: 8
+Size: 13.9KB
+
+Processing: test_table426.csv
+Thread: Thread-427
+Time: 7641.0ms
+Rows: 153, Columns: 8
+Size: 16.5KB
+
+Processing: test_table427.csv
+Thread: Thread-428
+Time: 7510.0ms
+Rows: 124, Columns: 8
+Size: 13.4KB
+
+Processing: test_table428.csv
+Thread: Thread-429
+Time: 7428.0ms
+Rows: 141, Columns: 8
+Size: 15.0KB
+
+Processing: test_table429.csv
+Thread: Thread-430
+Time: 6815.0ms
+Rows: 129, Columns: 8
+Size: 13.6KB
+
+Processing: test_table43.csv
+Thread: Thread-44
+Time: 8118.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table430.csv
+Thread: Thread-431
+Time: 6970.0ms
+Rows: 112, Columns: 8
+Size: 12.0KB
+
+Processing: test_table431.csv
+Thread: Thread-432
+Time: 7198.0ms
+Rows: 150, Columns: 8
+Size: 16.2KB
+
+Processing: test_table432.csv
+Thread: Thread-433
+Time: 7489.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table433.csv
+Thread: Thread-434
+Time: 6061.0ms
+Rows: 129, Columns: 8
+Size: 14.0KB
+
+Processing: test_table434.csv
+Thread: Thread-435
+Time: 6990.0ms
+Rows: 139, Columns: 8
+Size: 15.0KB
+
+Processing: test_table435.csv
+Thread: Thread-436
+Time: 7593.0ms
+Rows: 150, Columns: 8
+Size: 16.1KB
+
+Processing: test_table436.csv
+Thread: Thread-437
+Time: 6808.0ms
+Rows: 137, Columns: 8
+Size: 14.9KB
+
+Processing: test_table437.csv
+Thread: Thread-438
+Time: 7635.0ms
+Rows: 147, Columns: 8
+Size: 15.8KB
+
+Processing: test_table438.csv
+Thread: Thread-439
+Time: 6371.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table439.csv
+Thread: Thread-440
+Time: 6179.0ms
+Rows: 157, Columns: 8
+Size: 17.0KB
+
+Processing: test_table44.csv
+Thread: Thread-45
+Time: 7913.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table440.csv
+Thread: Thread-441
+Time: 4861.0ms
+Rows: 145, Columns: 8
+Size: 15.5KB
+
+Processing: test_table441.csv
+Thread: Thread-442
+Time: 7444.0ms
+Rows: 144, Columns: 8
+Size: 15.4KB
+
+Processing: test_table442.csv
+Thread: Thread-443
+Time: 4593.0ms
+Rows: 153, Columns: 8
+Size: 16.5KB
+
+Processing: test_table443.csv
+Thread: Thread-444
+Time: 5002.0ms
+Rows: 147, Columns: 8
+Size: 15.9KB
+
+Processing: test_table444.csv
+Thread: Thread-445
+Time: 7181.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table445.csv
+Thread: Thread-446
+Time: 4881.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table446.csv
+Thread: Thread-447
+Time: 7043.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table447.csv
+Thread: Thread-448
+Time: 7242.0ms
+Rows: 124, Columns: 8
+Size: 13.3KB
+
+Processing: test_table448.csv
+Thread: Thread-449
+Time: 5060.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table449.csv
+Thread: Thread-450
+Time: 6242.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table45.csv
+Thread: Thread-46
+Time: 6239.0ms
+Rows: 135, Columns: 8
+Size: 14.6KB
+
+Processing: test_table450.csv
+Thread: Thread-451
+Time: 6956.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table451.csv
+Thread: Thread-452
+Time: 4664.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table452.csv
+Thread: Thread-453
+Time: 7144.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table453.csv
+Thread: Thread-454
+Time: 6789.0ms
+Rows: 135, Columns: 8
+Size: 14.4KB
+
+Processing: test_table454.csv
+Thread: Thread-455
+Time: 5681.0ms
+Rows: 151, Columns: 8
+Size: 16.2KB
+
+Processing: test_table455.csv
+Thread: Thread-456
+Time: 6219.0ms
+Rows: 144, Columns: 8
+Size: 15.4KB
+
+Processing: test_table456.csv
+Thread: Thread-457
+Time: 7094.0ms
+Rows: 120, Columns: 8
+Size: 13.0KB
+
+Processing: test_table457.csv
+Thread: Thread-458
+Time: 7019.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table458.csv
+Thread: Thread-459
+Time: 4995.0ms
+Rows: 148, Columns: 8
+Size: 15.9KB
+
+Processing: test_table459.csv
+Thread: Thread-460
+Time: 6224.0ms
+Rows: 145, Columns: 8
+Size: 15.3KB
+
+Processing: test_table46.csv
+Thread: Thread-47
+Time: 7331.0ms
+Rows: 150, Columns: 8
+Size: 16.0KB
+
+Processing: test_table460.csv
+Thread: Thread-461
+Time: 5227.0ms
+Rows: 132, Columns: 8
+Size: 14.1KB
+
+Processing: test_table461.csv
+Thread: Thread-462
+Time: 6802.0ms
+Rows: 144, Columns: 8
+Size: 15.4KB
+
+Processing: test_table462.csv
+Thread: Thread-463
+Time: 4906.0ms
+Rows: 136, Columns: 8
+Size: 14.5KB
+
+Processing: test_table463.csv
+Thread: Thread-464
+Time: 6047.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table464.csv
+Thread: Thread-465
+Time: 7133.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table465.csv
+Thread: Thread-466
+Time: 6251.0ms
+Rows: 129, Columns: 8
+Size: 13.8KB
+
+Processing: test_table466.csv
+Thread: Thread-467
+Time: 5634.0ms
+Rows: 151, Columns: 8
+Size: 16.2KB
+
+Processing: test_table467.csv
+Thread: Thread-468
+Time: 6164.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table468.csv
+Thread: Thread-469
+Time: 6753.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table469.csv
+Thread: Thread-470
+Time: 5385.0ms
+Rows: 137, Columns: 8
+Size: 14.6KB
+
+Processing: test_table47.csv
+Thread: Thread-48
+Time: 8844.0ms
+Rows: 143, Columns: 8
+Size: 15.3KB
+
+Processing: test_table470.csv
+Thread: Thread-471
+Time: 6250.0ms
+Rows: 136, Columns: 8
+Size: 14.4KB
+
+Processing: test_table471.csv
+Thread: Thread-472
+Time: 7164.0ms
+Rows: 152, Columns: 8
+Size: 16.3KB
+
+Processing: test_table472.csv
+Thread: Thread-473
+Time: 7243.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table473.csv
+Thread: Thread-474
+Time: 5964.0ms
+Rows: 135, Columns: 8
+Size: 14.6KB
+
+Processing: test_table474.csv
+Thread: Thread-475
+Time: 6161.0ms
+Rows: 136, Columns: 8
+Size: 14.5KB
+
+Processing: test_table475.csv
+Thread: Thread-476
+Time: 4245.0ms
+Rows: 152, Columns: 8
+Size: 16.3KB
+
+Processing: test_table476.csv
+Thread: Thread-477
+Time: 4951.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table477.csv
+Thread: Thread-478
+Time: 6922.0ms
+Rows: 135, Columns: 8
+Size: 14.4KB
+
+Processing: test_table478.csv
+Thread: Thread-479
+Time: 6752.0ms
+Rows: 134, Columns: 8
+Size: 14.5KB
+
+Processing: test_table479.csv
+Thread: Thread-480
+Time: 6843.0ms
+Rows: 146, Columns: 8
+Size: 15.6KB
+
+Processing: test_table48.csv
+Thread: Thread-49
+Time: 8608.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table480.csv
+Thread: Thread-481
+Time: 7242.0ms
+Rows: 140, Columns: 8
+Size: 14.9KB
+
+Processing: test_table481.csv
+Thread: Thread-482
+Time: 6680.0ms
+Rows: 130, Columns: 8
+Size: 13.8KB
+
+Processing: test_table482.csv
+Thread: Thread-483
+Time: 6897.0ms
+Rows: 124, Columns: 8
+Size: 13.3KB
+
+Processing: test_table483.csv
+Thread: Thread-484
+Time: 6191.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table484.csv
+Thread: Thread-485
+Time: 5020.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table485.csv
+Thread: Thread-486
+Time: 7059.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table486.csv
+Thread: Thread-487
+Time: 6846.0ms
+Rows: 142, Columns: 8
+Size: 15.4KB
+
+Processing: test_table487.csv
+Thread: Thread-488
+Time: 5529.0ms
+Rows: 133, Columns: 8
+Size: 14.2KB
+
+Processing: test_table488.csv
+Thread: Thread-489
+Time: 4961.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table489.csv
+Thread: Thread-490
+Time: 4813.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table49.csv
+Thread: Thread-50
+Time: 7810.0ms
+Rows: 140, Columns: 8
+Size: 14.9KB
+
+Processing: test_table490.csv
+Thread: Thread-491
+Time: 7015.0ms
+Rows: 130, Columns: 8
+Size: 13.9KB
+
+Processing: test_table491.csv
+Thread: Thread-492
+Time: 7109.0ms
+Rows: 141, Columns: 8
+Size: 15.3KB
+
+Processing: test_table492.csv
+Thread: Thread-493
+Time: 6988.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table493.csv
+Thread: Thread-494
+Time: 6162.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table494.csv
+Thread: Thread-495
+Time: 6726.0ms
+Rows: 151, Columns: 8
+Size: 16.2KB
+
+Processing: test_table495.csv
+Thread: Thread-496
+Time: 5127.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table496.csv
+Thread: Thread-497
+Time: 5533.0ms
+Rows: 113, Columns: 8
+Size: 12.2KB
+
+Processing: test_table497.csv
+Thread: Thread-498
+Time: 4575.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table498.csv
+Thread: Thread-499
+Time: 6205.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table499.csv
+Thread: Thread-500
+Time: 6624.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table5.csv
+Thread: Thread-6
+Time: 8012.0ms
+Rows: 129, Columns: 8
+Size: 13.8KB
+
+Processing: test_table50.csv
+Thread: Thread-51
+Time: 6765.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table500.csv
+Thread: Thread-501
+Time: 6137.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table501.csv
+Thread: Thread-502
+Time: 6675.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table502.csv
+Thread: Thread-503
+Time: 6074.0ms
+Rows: 142, Columns: 8
+Size: 15.4KB
+
+Processing: test_table503.csv
+Thread: Thread-504
+Time: 7281.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table504.csv
+Thread: Thread-505
+Time: 4907.0ms
+Rows: 148, Columns: 8
+Size: 15.9KB
+
+Processing: test_table505.csv
+Thread: Thread-506
+Time: 7248.0ms
+Rows: 162, Columns: 8
+Size: 17.4KB
+
+Processing: test_table506.csv
+Thread: Thread-507
+Time: 4787.0ms
+Rows: 133, Columns: 8
+Size: 14.2KB
+
+Processing: test_table507.csv
+Thread: Thread-508
+Time: 5017.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table508.csv
+Thread: Thread-509
+Time: 5439.0ms
+Rows: 141, Columns: 8
+Size: 15.2KB
+
+Processing: test_table509.csv
+Thread: Thread-510
+Time: 6766.0ms
+Rows: 144, Columns: 8
+Size: 15.6KB
+
+Processing: test_table51.csv
+Thread: Thread-52
+Time: 6583.0ms
+Rows: 115, Columns: 8
+Size: 12.3KB
+
+Processing: test_table510.csv
+Thread: Thread-511
+Time: 7107.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table511.csv
+Thread: Thread-512
+Time: 6714.0ms
+Rows: 150, Columns: 8
+Size: 16.1KB
+
+Processing: test_table512.csv
+Thread: Thread-513
+Time: 4361.0ms
+Rows: 124, Columns: 8
+Size: 13.3KB
+
+Processing: test_table513.csv
+Thread: Thread-514
+Time: 5786.0ms
+Rows: 143, Columns: 8
+Size: 15.3KB
+
+Processing: test_table514.csv
+Thread: Thread-515
+Time: 6319.0ms
+Rows: 125, Columns: 8
+Size: 13.6KB
+
+Processing: test_table515.csv
+Thread: Thread-516
+Time: 6238.0ms
+Rows: 131, Columns: 8
+Size: 13.9KB
+
+Processing: test_table516.csv
+Thread: Thread-517
+Time: 5018.0ms
+Rows: 150, Columns: 8
+Size: 16.1KB
+
+Processing: test_table517.csv
+Thread: Thread-518
+Time: 6910.0ms
+Rows: 158, Columns: 8
+Size: 16.9KB
+
+Processing: test_table518.csv
+Thread: Thread-519
+Time: 6315.0ms
+Rows: 113, Columns: 8
+Size: 12.2KB
+
+Processing: test_table519.csv
+Thread: Thread-520
+Time: 5785.0ms
+Rows: 145, Columns: 8
+Size: 15.5KB
+
+Processing: test_table52.csv
+Thread: Thread-53
+Time: 8264.0ms
+Rows: 124, Columns: 8
+Size: 13.4KB
+
+Processing: test_table520.csv
+Thread: Thread-521
+Time: 5088.0ms
+Rows: 121, Columns: 8
+Size: 13.0KB
+
+Processing: test_table521.csv
+Thread: Thread-522
+Time: 6632.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table522.csv
+Thread: Thread-523
+Time: 5792.0ms
+Rows: 114, Columns: 8
+Size: 12.2KB
+
+Processing: test_table523.csv
+Thread: Thread-524
+Time: 5517.0ms
+Rows: 129, Columns: 8
+Size: 13.8KB
+
+Processing: test_table524.csv
+Thread: Thread-525
+Time: 6515.0ms
+Rows: 156, Columns: 8
+Size: 16.6KB
+
+Processing: test_table525.csv
+Thread: Thread-526
+Time: 5136.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table526.csv
+Thread: Thread-527
+Time: 5772.0ms
+Rows: 112, Columns: 8
+Size: 12.1KB
+
+Processing: test_table527.csv
+Thread: Thread-528
+Time: 7104.0ms
+Rows: 147, Columns: 8
+Size: 15.6KB
+
+Processing: test_table528.csv
+Thread: Thread-529
+Time: 6886.0ms
+Rows: 151, Columns: 8
+Size: 16.3KB
+
+Processing: test_table529.csv
+Thread: Thread-530
+Time: 5037.0ms
+Rows: 134, Columns: 8
+Size: 14.5KB
+
+Processing: test_table53.csv
+Thread: Thread-54
+Time: 7755.0ms
+Rows: 131, Columns: 8
+Size: 13.9KB
+
+Processing: test_table530.csv
+Thread: Thread-531
+Time: 5759.0ms
+Rows: 123, Columns: 8
+Size: 13.2KB
+
+Processing: test_table531.csv
+Thread: Thread-532
+Time: 5552.0ms
+Rows: 144, Columns: 8
+Size: 15.6KB
+
+Processing: test_table532.csv
+Thread: Thread-533
+Time: 6600.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table533.csv
+Thread: Thread-534
+Time: 6244.0ms
+Rows: 142, Columns: 8
+Size: 15.1KB
+
+Processing: test_table534.csv
+Thread: Thread-535
+Time: 5776.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table535.csv
+Thread: Thread-536
+Time: 6165.0ms
+Rows: 144, Columns: 8
+Size: 15.6KB
+
+Processing: test_table536.csv
+Thread: Thread-537
+Time: 6310.0ms
+Rows: 147, Columns: 8
+Size: 15.7KB
+
+Processing: test_table537.csv
+Thread: Thread-538
+Time: 6706.0ms
+Rows: 118, Columns: 8
+Size: 12.6KB
+
+Processing: test_table538.csv
+Thread: Thread-539
+Time: 3825.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table539.csv
+Thread: Thread-540
+Time: 6644.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table54.csv
+Thread: Thread-55
+Time: 7906.0ms
+Rows: 142, Columns: 8
+Size: 15.3KB
+
+Processing: test_table540.csv
+Thread: Thread-541
+Time: 6485.0ms
+Rows: 136, Columns: 8
+Size: 14.5KB
+
+Processing: test_table541.csv
+Thread: Thread-542
+Time: 5019.0ms
+Rows: 123, Columns: 8
+Size: 13.2KB
+
+Processing: test_table542.csv
+Thread: Thread-543
+Time: 5092.0ms
+Rows: 159, Columns: 8
+Size: 17.2KB
+
+Processing: test_table543.csv
+Thread: Thread-544
+Time: 6559.0ms
+Rows: 132, Columns: 8
+Size: 14.3KB
+
+Processing: test_table544.csv
+Thread: Thread-545
+Time: 6807.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table545.csv
+Thread: Thread-546
+Time: 6370.0ms
+Rows: 163, Columns: 8
+Size: 17.4KB
+
+Processing: test_table546.csv
+Thread: Thread-547
+Time: 4527.0ms
+Rows: 141, Columns: 8
+Size: 15.0KB
+
+Processing: test_table547.csv
+Thread: Thread-548
+Time: 6764.0ms
+Rows: 147, Columns: 8
+Size: 15.9KB
+
+Processing: test_table548.csv
+Thread: Thread-549
+Time: 5567.0ms
+Rows: 157, Columns: 8
+Size: 16.9KB
+
+Processing: test_table549.csv
+Thread: Thread-550
+Time: 6549.0ms
+Rows: 123, Columns: 8
+Size: 13.2KB
+
+Processing: test_table55.csv
+Thread: Thread-56
+Time: 8342.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table550.csv
+Thread: Thread-551
+Time: 6841.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table551.csv
+Thread: Thread-552
+Time: 6778.0ms
+Rows: 121, Columns: 8
+Size: 13.0KB
+
+Processing: test_table552.csv
+Thread: Thread-553
+Time: 3987.0ms
+Rows: 106, Columns: 8
+Size: 11.4KB
+
+Processing: test_table553.csv
+Thread: Thread-554
+Time: 6750.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table554.csv
+Thread: Thread-555
+Time: 6878.0ms
+Rows: 149, Columns: 8
+Size: 16.1KB
+
+Processing: test_table555.csv
+Thread: Thread-556
+Time: 5865.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table556.csv
+Thread: Thread-557
+Time: 4655.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table557.csv
+Thread: Thread-558
+Time: 5913.0ms
+Rows: 122, Columns: 8
+Size: 13.2KB
+
+Processing: test_table558.csv
+Thread: Thread-559
+Time: 6520.0ms
+Rows: 129, Columns: 8
+Size: 13.8KB
+
+Processing: test_table559.csv
+Thread: Thread-560
+Time: 5132.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table56.csv
+Thread: Thread-57
+Time: 5762.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table560.csv
+Thread: Thread-561
+Time: 5208.0ms
+Rows: 143, Columns: 8
+Size: 15.3KB
+
+Processing: test_table561.csv
+Thread: Thread-562
+Time: 4842.0ms
+Rows: 142, Columns: 8
+Size: 15.1KB
+
+Processing: test_table562.csv
+Thread: Thread-563
+Time: 4364.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table563.csv
+Thread: Thread-564
+Time: 6161.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table564.csv
+Thread: Thread-565
+Time: 6306.0ms
+Rows: 147, Columns: 8
+Size: 15.8KB
+
+Processing: test_table565.csv
+Thread: Thread-566
+Time: 4840.0ms
+Rows: 162, Columns: 8
+Size: 17.3KB
+
+Processing: test_table566.csv
+Thread: Thread-567
+Time: 6660.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table567.csv
+Thread: Thread-568
+Time: 4429.0ms
+Rows: 134, Columns: 8
+Size: 14.5KB
+
+Processing: test_table568.csv
+Thread: Thread-569
+Time: 6651.0ms
+Rows: 128, Columns: 8
+Size: 13.9KB
+
+Processing: test_table569.csv
+Thread: Thread-570
+Time: 5925.0ms
+Rows: 114, Columns: 8
+Size: 12.2KB
+
+Processing: test_table57.csv
+Thread: Thread-58
+Time: 8652.0ms
+Rows: 127, Columns: 8
+Size: 13.5KB
+
+Processing: test_table570.csv
+Thread: Thread-571
+Time: 6328.0ms
+Rows: 150, Columns: 8
+Size: 16.0KB
+
+Processing: test_table571.csv
+Thread: Thread-572
+Time: 3481.0ms
+Rows: 147, Columns: 8
+Size: 15.7KB
+
+Processing: test_table572.csv
+Thread: Thread-573
+Time: 6602.0ms
+Rows: 146, Columns: 8
+Size: 15.6KB
+
+Processing: test_table573.csv
+Thread: Thread-574
+Time: 6621.0ms
+Rows: 124, Columns: 8
+Size: 13.4KB
+
+Processing: test_table574.csv
+Thread: Thread-575
+Time: 5744.0ms
+Rows: 142, Columns: 8
+Size: 15.1KB
+
+Processing: test_table575.csv
+Thread: Thread-576
+Time: 3923.0ms
+Rows: 140, Columns: 8
+Size: 14.9KB
+
+Processing: test_table576.csv
+Thread: Thread-577
+Time: 6526.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table577.csv
+Thread: Thread-578
+Time: 6324.0ms
+Rows: 130, Columns: 8
+Size: 13.8KB
+
+Processing: test_table578.csv
+Thread: Thread-579
+Time: 6058.0ms
+Rows: 132, Columns: 8
+Size: 14.3KB
+
+Processing: test_table579.csv
+Thread: Thread-580
+Time: 4027.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table58.csv
+Thread: Thread-59
+Time: 7879.0ms
+Rows: 112, Columns: 8
+Size: 12.2KB
+
+Processing: test_table580.csv
+Thread: Thread-581
+Time: 6375.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table581.csv
+Thread: Thread-582
+Time: 6432.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table582.csv
+Thread: Thread-583
+Time: 5219.0ms
+Rows: 112, Columns: 8
+Size: 12.1KB
+
+Processing: test_table583.csv
+Thread: Thread-584
+Time: 5853.0ms
+Rows: 118, Columns: 8
+Size: 12.6KB
+
+Processing: test_table584.csv
+Thread: Thread-585
+Time: 4994.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table585.csv
+Thread: Thread-586
+Time: 6413.0ms
+Rows: 124, Columns: 8
+Size: 13.3KB
+
+Processing: test_table586.csv
+Thread: Thread-587
+Time: 5540.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table587.csv
+Thread: Thread-588
+Time: 5631.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table588.csv
+Thread: Thread-589
+Time: 6163.0ms
+Rows: 157, Columns: 8
+Size: 16.9KB
+
+Processing: test_table589.csv
+Thread: Thread-590
+Time: 3713.0ms
+Rows: 135, Columns: 8
+Size: 14.6KB
+
+Processing: test_table59.csv
+Thread: Thread-60
+Time: 7830.0ms
+Rows: 150, Columns: 8
+Size: 16.1KB
+
+Processing: test_table590.csv
+Thread: Thread-591
+Time: 3708.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table591.csv
+Thread: Thread-592
+Time: 3728.0ms
+Rows: 144, Columns: 8
+Size: 15.7KB
+
+Processing: test_table592.csv
+Thread: Thread-593
+Time: 3722.0ms
+Rows: 129, Columns: 8
+Size: 13.8KB
+
+Processing: test_table593.csv
+Thread: Thread-594
+Time: 5919.0ms
+Rows: 147, Columns: 8
+Size: 15.8KB
+
+Processing: test_table594.csv
+Thread: Thread-595
+Time: 3281.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table595.csv
+Thread: Thread-596
+Time: 4994.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table596.csv
+Thread: Thread-597
+Time: 6199.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table597.csv
+Thread: Thread-598
+Time: 5080.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table598.csv
+Thread: Thread-599
+Time: 6204.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table599.csv
+Thread: Thread-600
+Time: 5824.0ms
+Rows: 132, Columns: 8
+Size: 14.3KB
+
+Processing: test_table6.csv
+Thread: Thread-7
+Time: 7869.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table60.csv
+Thread: Thread-61
+Time: 8265.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table600.csv
+Thread: Thread-601
+Time: 5549.0ms
+Rows: 120, Columns: 8
+Size: 12.9KB
+
+Processing: test_table601.csv
+Thread: Thread-602
+Time: 6151.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table602.csv
+Thread: Thread-603
+Time: 6242.0ms
+Rows: 150, Columns: 8
+Size: 16.2KB
+
+Processing: test_table603.csv
+Thread: Thread-604
+Time: 4162.0ms
+Rows: 129, Columns: 8
+Size: 13.8KB
+
+Processing: test_table604.csv
+Thread: Thread-605
+Time: 4377.0ms
+Rows: 131, Columns: 8
+Size: 14.2KB
+
+Processing: test_table605.csv
+Thread: Thread-606
+Time: 5631.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table606.csv
+Thread: Thread-607
+Time: 4956.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table607.csv
+Thread: Thread-608
+Time: 3359.0ms
+Rows: 135, Columns: 8
+Size: 14.4KB
+
+Processing: test_table608.csv
+Thread: Thread-609
+Time: 6175.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table609.csv
+Thread: Thread-610
+Time: 5346.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table61.csv
+Thread: Thread-62
+Time: 7878.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table610.csv
+Thread: Thread-611
+Time: 3407.0ms
+Rows: 117, Columns: 8
+Size: 12.6KB
+
+Processing: test_table611.csv
+Thread: Thread-612
+Time: 3604.0ms
+Rows: 141, Columns: 8
+Size: 15.2KB
+
+Processing: test_table612.csv
+Thread: Thread-613
+Time: 6133.0ms
+Rows: 148, Columns: 8
+Size: 15.9KB
+
+Processing: test_table613.csv
+Thread: Thread-614
+Time: 5988.0ms
+Rows: 151, Columns: 8
+Size: 16.2KB
+
+Processing: test_table614.csv
+Thread: Thread-615
+Time: 6166.0ms
+Rows: 138, Columns: 8
+Size: 14.7KB
+
+Processing: test_table615.csv
+Thread: Thread-616
+Time: 3708.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table616.csv
+Thread: Thread-617
+Time: 4296.0ms
+Rows: 125, Columns: 8
+Size: 13.6KB
+
+Processing: test_table617.csv
+Thread: Thread-618
+Time: 3415.0ms
+Rows: 139, Columns: 8
+Size: 14.8KB
+
+Processing: test_table618.csv
+Thread: Thread-619
+Time: 5427.0ms
+Rows: 126, Columns: 8
+Size: 13.7KB
+
+Processing: test_table619.csv
+Thread: Thread-620
+Time: 6216.0ms
+Rows: 156, Columns: 8
+Size: 16.7KB
+
+Processing: test_table62.csv
+Thread: Thread-63
+Time: 8536.0ms
+Rows: 126, Columns: 8
+Size: 13.5KB
+
+Processing: test_table620.csv
+Thread: Thread-621
+Time: 6350.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table621.csv
+Thread: Thread-622
+Time: 3552.0ms
+Rows: 142, Columns: 8
+Size: 15.3KB
+
+Processing: test_table622.csv
+Thread: Thread-623
+Time: 4991.0ms
+Rows: 126, Columns: 8
+Size: 13.5KB
+
+Processing: test_table623.csv
+Thread: Thread-624
+Time: 3358.0ms
+Rows: 145, Columns: 8
+Size: 15.7KB
+
+Processing: test_table624.csv
+Thread: Thread-625
+Time: 5868.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table625.csv
+Thread: Thread-626
+Time: 4902.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table626.csv
+Thread: Thread-627
+Time: 5689.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table627.csv
+Thread: Thread-628
+Time: 5359.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table628.csv
+Thread: Thread-629
+Time: 6071.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table629.csv
+Thread: Thread-630
+Time: 5807.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table63.csv
+Thread: Thread-64
+Time: 8463.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table630.csv
+Thread: Thread-631
+Time: 4848.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table631.csv
+Thread: Thread-632
+Time: 5646.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table632.csv
+Thread: Thread-633
+Time: 5567.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table633.csv
+Thread: Thread-634
+Time: 5610.0ms
+Rows: 121, Columns: 8
+Size: 12.9KB
+
+Processing: test_table634.csv
+Thread: Thread-635
+Time: 5756.0ms
+Rows: 124, Columns: 8
+Size: 13.3KB
+
+Processing: test_table635.csv
+Thread: Thread-636
+Time: 5564.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table636.csv
+Thread: Thread-637
+Time: 5539.0ms
+Rows: 135, Columns: 8
+Size: 14.4KB
+
+Processing: test_table637.csv
+Thread: Thread-638
+Time: 5359.0ms
+Rows: 127, Columns: 8
+Size: 13.8KB
+
+Processing: test_table638.csv
+Thread: Thread-639
+Time: 5342.0ms
+Rows: 127, Columns: 8
+Size: 13.6KB
+
+Processing: test_table639.csv
+Thread: Thread-640
+Time: 4695.0ms
+Rows: 120, Columns: 8
+Size: 12.9KB
+
+Processing: test_table64.csv
+Thread: Thread-65
+Time: 7888.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table640.csv
+Thread: Thread-641
+Time: 5149.0ms
+Rows: 129, Columns: 8
+Size: 14.0KB
+
+Processing: test_table641.csv
+Thread: Thread-642
+Time: 5434.0ms
+Rows: 139, Columns: 8
+Size: 14.8KB
+
+Processing: test_table642.csv
+Thread: Thread-643
+Time: 3183.0ms
+Rows: 147, Columns: 8
+Size: 15.8KB
+
+Processing: test_table643.csv
+Thread: Thread-644
+Time: 5543.0ms
+Rows: 151, Columns: 8
+Size: 16.2KB
+
+Processing: test_table644.csv
+Thread: Thread-645
+Time: 5210.0ms
+Rows: 142, Columns: 8
+Size: 15.3KB
+
+Processing: test_table645.csv
+Thread: Thread-646
+Time: 5559.0ms
+Rows: 158, Columns: 8
+Size: 16.8KB
+
+Processing: test_table646.csv
+Thread: Thread-647
+Time: 5101.0ms
+Rows: 123, Columns: 8
+Size: 13.3KB
+
+Processing: test_table647.csv
+Thread: Thread-648
+Time: 4425.0ms
+Rows: 128, Columns: 8
+Size: 13.8KB
+
+Processing: test_table648.csv
+Thread: Thread-649
+Time: 5837.0ms
+Rows: 128, Columns: 8
+Size: 14.0KB
+
+Processing: test_table649.csv
+Thread: Thread-650
+Time: 5104.0ms
+Rows: 146, Columns: 8
+Size: 15.6KB
+
+Processing: test_table65.csv
+Thread: Thread-66
+Time: 5729.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table650.csv
+Thread: Thread-651
+Time: 5524.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table651.csv
+Thread: Thread-652
+Time: 3500.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table652.csv
+Thread: Thread-653
+Time: 4070.0ms
+Rows: 151, Columns: 8
+Size: 16.2KB
+
+Processing: test_table653.csv
+Thread: Thread-654
+Time: 5687.0ms
+Rows: 143, Columns: 8
+Size: 15.3KB
+
+Processing: test_table654.csv
+Thread: Thread-655
+Time: 5982.0ms
+Rows: 134, Columns: 8
+Size: 14.3KB
+
+Processing: test_table655.csv
+Thread: Thread-656
+Time: 6052.0ms
+Rows: 155, Columns: 8
+Size: 16.6KB
+
+Processing: test_table656.csv
+Thread: Thread-657
+Time: 4633.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table657.csv
+Thread: Thread-658
+Time: 5523.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table658.csv
+Thread: Thread-659
+Time: 5544.0ms
+Rows: 164, Columns: 8
+Size: 17.7KB
+
+Processing: test_table659.csv
+Thread: Thread-660
+Time: 6075.0ms
+Rows: 149, Columns: 8
+Size: 16.1KB
+
+Processing: test_table66.csv
+Thread: Thread-67
+Time: 8142.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table660.csv
+Thread: Thread-661
+Time: 5859.0ms
+Rows: 149, Columns: 8
+Size: 16.0KB
+
+Processing: test_table661.csv
+Thread: Thread-662
+Time: 5588.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table662.csv
+Thread: Thread-663
+Time: 5614.0ms
+Rows: 125, Columns: 8
+Size: 13.2KB
+
+Processing: test_table663.csv
+Thread: Thread-664
+Time: 5946.0ms
+Rows: 129, Columns: 8
+Size: 13.8KB
+
+Processing: test_table664.csv
+Thread: Thread-665
+Time: 5217.0ms
+Rows: 137, Columns: 8
+Size: 14.6KB
+
+Processing: test_table665.csv
+Thread: Thread-666
+Time: 3065.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table666.csv
+Thread: Thread-667
+Time: 3062.0ms
+Rows: 132, Columns: 8
+Size: 14.3KB
+
+Processing: test_table667.csv
+Thread: Thread-668
+Time: 5469.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table668.csv
+Thread: Thread-669
+Time: 4345.0ms
+Rows: 157, Columns: 8
+Size: 16.7KB
+
+Processing: test_table669.csv
+Thread: Thread-670
+Time: 4696.0ms
+Rows: 134, Columns: 8
+Size: 14.2KB
+
+Processing: test_table67.csv
+Thread: Thread-68
+Time: 8153.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table670.csv
+Thread: Thread-671
+Time: 3099.0ms
+Rows: 123, Columns: 8
+Size: 13.2KB
+
+Processing: test_table671.csv
+Thread: Thread-672
+Time: 5378.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table672.csv
+Thread: Thread-673
+Time: 5320.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table673.csv
+Thread: Thread-674
+Time: 3114.0ms
+Rows: 117, Columns: 8
+Size: 12.5KB
+
+Processing: test_table674.csv
+Thread: Thread-675
+Time: 2543.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table675.csv
+Thread: Thread-676
+Time: 5567.0ms
+Rows: 152, Columns: 8
+Size: 16.3KB
+
+Processing: test_table676.csv
+Thread: Thread-677
+Time: 5854.0ms
+Rows: 119, Columns: 8
+Size: 12.7KB
+
+Processing: test_table677.csv
+Thread: Thread-678
+Time: 4377.0ms
+Rows: 135, Columns: 8
+Size: 14.6KB
+
+Processing: test_table678.csv
+Thread: Thread-679
+Time: 3036.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table679.csv
+Thread: Thread-680
+Time: 5359.0ms
+Rows: 152, Columns: 8
+Size: 16.4KB
+
+Processing: test_table68.csv
+Thread: Thread-69
+Time: 6701.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table680.csv
+Thread: Thread-681
+Time: 3218.0ms
+Rows: 133, Columns: 8
+Size: 14.2KB
+
+Processing: test_table681.csv
+Thread: Thread-682
+Time: 3010.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table682.csv
+Thread: Thread-683
+Time: 4336.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table683.csv
+Thread: Thread-684
+Time: 5588.0ms
+Rows: 164, Columns: 8
+Size: 17.6KB
+
+Processing: test_table684.csv
+Thread: Thread-685
+Time: 5521.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table685.csv
+Thread: Thread-686
+Time: 5473.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table686.csv
+Thread: Thread-687
+Time: 5280.0ms
+Rows: 134, Columns: 8
+Size: 14.5KB
+
+Processing: test_table687.csv
+Thread: Thread-688
+Time: 3945.0ms
+Rows: 153, Columns: 8
+Size: 16.5KB
+
+Processing: test_table688.csv
+Thread: Thread-689
+Time: 5472.0ms
+Rows: 150, Columns: 8
+Size: 15.9KB
+
+Processing: test_table689.csv
+Thread: Thread-690
+Time: 5601.0ms
+Rows: 152, Columns: 8
+Size: 16.2KB
+
+Processing: test_table69.csv
+Thread: Thread-70
+Time: 5805.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table690.csv
+Thread: Thread-691
+Time: 5682.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table691.csv
+Thread: Thread-692
+Time: 5036.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table692.csv
+Thread: Thread-693
+Time: 5470.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table693.csv
+Thread: Thread-694
+Time: 3231.0ms
+Rows: 121, Columns: 8
+Size: 13.1KB
+
+Processing: test_table694.csv
+Thread: Thread-695
+Time: 4339.0ms
+Rows: 105, Columns: 8
+Size: 11.4KB
+
+Processing: test_table695.csv
+Thread: Thread-696
+Time: 3909.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table696.csv
+Thread: Thread-697
+Time: 4316.0ms
+Rows: 148, Columns: 8
+Size: 15.8KB
+
+Processing: test_table697.csv
+Thread: Thread-698
+Time: 5739.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table698.csv
+Thread: Thread-699
+Time: 5445.0ms
+Rows: 132, Columns: 8
+Size: 14.3KB
+
+Processing: test_table699.csv
+Thread: Thread-700
+Time: 5088.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table7.csv
+Thread: Thread-8
+Time: 7627.0ms
+Rows: 154, Columns: 8
+Size: 16.5KB
+
+Processing: test_table70.csv
+Thread: Thread-71
+Time: 7769.0ms
+Rows: 114, Columns: 8
+Size: 12.2KB
+
+Processing: test_table700.csv
+Thread: Thread-701
+Time: 3204.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table701.csv
+Thread: Thread-702
+Time: 3131.0ms
+Rows: 142, Columns: 8
+Size: 15.4KB
+
+Processing: test_table702.csv
+Thread: Thread-703
+Time: 4394.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table703.csv
+Thread: Thread-704
+Time: 5988.0ms
+Rows: 145, Columns: 8
+Size: 15.7KB
+
+Processing: test_table704.csv
+Thread: Thread-705
+Time: 5854.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table705.csv
+Thread: Thread-706
+Time: 5230.0ms
+Rows: 118, Columns: 8
+Size: 12.7KB
+
+Processing: test_table706.csv
+Thread: Thread-707
+Time: 5477.0ms
+Rows: 133, Columns: 8
+Size: 14.2KB
+
+Processing: test_table707.csv
+Thread: Thread-708
+Time: 4447.0ms
+Rows: 129, Columns: 8
+Size: 13.9KB
+
+Processing: test_table708.csv
+Thread: Thread-709
+Time: 4522.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table709.csv
+Thread: Thread-710
+Time: 2762.0ms
+Rows: 118, Columns: 8
+Size: 12.9KB
+
+Processing: test_table71.csv
+Thread: Thread-72
+Time: 6100.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table710.csv
+Thread: Thread-711
+Time: 4238.0ms
+Rows: 142, Columns: 8
+Size: 15.0KB
+
+Processing: test_table711.csv
+Thread: Thread-712
+Time: 3582.0ms
+Rows: 110, Columns: 8
+Size: 11.9KB
+
+Processing: test_table712.csv
+Thread: Thread-713
+Time: 5199.0ms
+Rows: 156, Columns: 8
+Size: 16.7KB
+
+Processing: test_table713.csv
+Thread: Thread-714
+Time: 3097.0ms
+Rows: 119, Columns: 8
+Size: 13.0KB
+
+Processing: test_table714.csv
+Thread: Thread-715
+Time: 2902.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table715.csv
+Thread: Thread-716
+Time: 5644.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table716.csv
+Thread: Thread-717
+Time: 4926.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table717.csv
+Thread: Thread-718
+Time: 4790.0ms
+Rows: 137, Columns: 8
+Size: 14.9KB
+
+Processing: test_table718.csv
+Thread: Thread-719
+Time: 2720.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table719.csv
+Thread: Thread-720
+Time: 4984.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table72.csv
+Thread: Thread-73
+Time: 8308.0ms
+Rows: 126, Columns: 8
+Size: 13.4KB
+
+Processing: test_table720.csv
+Thread: Thread-721
+Time: 4514.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table721.csv
+Thread: Thread-722
+Time: 5595.0ms
+Rows: 128, Columns: 8
+Size: 13.8KB
+
+Processing: test_table722.csv
+Thread: Thread-723
+Time: 4355.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table723.csv
+Thread: Thread-724
+Time: 2781.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table724.csv
+Thread: Thread-725
+Time: 5421.0ms
+Rows: 120, Columns: 8
+Size: 12.9KB
+
+Processing: test_table725.csv
+Thread: Thread-726
+Time: 5563.0ms
+Rows: 134, Columns: 8
+Size: 14.2KB
+
+Processing: test_table726.csv
+Thread: Thread-727
+Time: 5234.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table727.csv
+Thread: Thread-728
+Time: 4865.0ms
+Rows: 130, Columns: 8
+Size: 13.9KB
+
+Processing: test_table728.csv
+Thread: Thread-729
+Time: 4886.0ms
+Rows: 135, Columns: 8
+Size: 14.7KB
+
+Processing: test_table729.csv
+Thread: Thread-730
+Time: 5550.0ms
+Rows: 139, Columns: 8
+Size: 15.0KB
+
+Processing: test_table73.csv
+Thread: Thread-74
+Time: 7875.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table730.csv
+Thread: Thread-731
+Time: 4467.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table731.csv
+Thread: Thread-732
+Time: 5049.0ms
+Rows: 132, Columns: 8
+Size: 14.1KB
+
+Processing: test_table732.csv
+Thread: Thread-733
+Time: 5285.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table733.csv
+Thread: Thread-734
+Time: 5013.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table734.csv
+Thread: Thread-735
+Time: 2670.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table735.csv
+Thread: Thread-736
+Time: 2668.0ms
+Rows: 155, Columns: 8
+Size: 16.7KB
+
+Processing: test_table736.csv
+Thread: Thread-737
+Time: 3603.0ms
+Rows: 126, Columns: 8
+Size: 13.5KB
+
+Processing: test_table737.csv
+Thread: Thread-738
+Time: 4309.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table738.csv
+Thread: Thread-739
+Time: 4834.0ms
+Rows: 137, Columns: 8
+Size: 14.5KB
+
+Processing: test_table739.csv
+Thread: Thread-740
+Time: 5098.0ms
+Rows: 119, Columns: 8
+Size: 12.8KB
+
+Processing: test_table74.csv
+Thread: Thread-75
+Time: 8221.0ms
+Rows: 119, Columns: 8
+Size: 12.9KB
+
+Processing: test_table740.csv
+Thread: Thread-741
+Time: 4037.0ms
+Rows: 113, Columns: 8
+Size: 12.1KB
+
+Processing: test_table741.csv
+Thread: Thread-742
+Time: 2820.0ms
+Rows: 135, Columns: 8
+Size: 14.6KB
+
+Processing: test_table742.csv
+Thread: Thread-743
+Time: 4684.0ms
+Rows: 107, Columns: 8
+Size: 11.4KB
+
+Processing: test_table743.csv
+Thread: Thread-744
+Time: 5139.0ms
+Rows: 137, Columns: 8
+Size: 15.0KB
+
+Processing: test_table744.csv
+Thread: Thread-745
+Time: 4295.0ms
+Rows: 122, Columns: 8
+Size: 12.9KB
+
+Processing: test_table745.csv
+Thread: Thread-746
+Time: 4965.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table746.csv
+Thread: Thread-747
+Time: 5395.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table747.csv
+Thread: Thread-748
+Time: 4995.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table748.csv
+Thread: Thread-749
+Time: 4278.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table749.csv
+Thread: Thread-750
+Time: 5356.0ms
+Rows: 157, Columns: 8
+Size: 16.9KB
+
+Processing: test_table75.csv
+Thread: Thread-76
+Time: 8037.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table750.csv
+Thread: Thread-751
+Time: 4901.0ms
+Rows: 154, Columns: 8
+Size: 16.6KB
+
+Processing: test_table751.csv
+Thread: Thread-752
+Time: 5104.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table752.csv
+Thread: Thread-753
+Time: 4709.0ms
+Rows: 140, Columns: 8
+Size: 15.2KB
+
+Processing: test_table753.csv
+Thread: Thread-754
+Time: 5356.0ms
+Rows: 123, Columns: 8
+Size: 13.2KB
+
+Processing: test_table754.csv
+Thread: Thread-755
+Time: 4949.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table755.csv
+Thread: Thread-756
+Time: 5524.0ms
+Rows: 164, Columns: 8
+Size: 17.7KB
+
+Processing: test_table756.csv
+Thread: Thread-757
+Time: 4857.0ms
+Rows: 127, Columns: 8
+Size: 13.8KB
+
+Processing: test_table757.csv
+Thread: Thread-758
+Time: 4974.0ms
+Rows: 132, Columns: 8
+Size: 14.0KB
+
+Processing: test_table758.csv
+Thread: Thread-759
+Time: 4311.0ms
+Rows: 134, Columns: 8
+Size: 14.3KB
+
+Processing: test_table759.csv
+Thread: Thread-760
+Time: 2971.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table76.csv
+Thread: Thread-77
+Time: 5794.0ms
+Rows: 141, Columns: 8
+Size: 15.0KB
+
+Processing: test_table760.csv
+Thread: Thread-761
+Time: 4772.0ms
+Rows: 150, Columns: 8
+Size: 16.1KB
+
+Processing: test_table761.csv
+Thread: Thread-762
+Time: 4893.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table762.csv
+Thread: Thread-763
+Time: 4936.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table763.csv
+Thread: Thread-764
+Time: 4746.0ms
+Rows: 120, Columns: 8
+Size: 12.9KB
+
+Processing: test_table764.csv
+Thread: Thread-765
+Time: 4682.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table765.csv
+Thread: Thread-766
+Time: 4127.0ms
+Rows: 137, Columns: 8
+Size: 14.6KB
+
+Processing: test_table766.csv
+Thread: Thread-767
+Time: 5042.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table767.csv
+Thread: Thread-768
+Time: 4663.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table768.csv
+Thread: Thread-769
+Time: 5311.0ms
+Rows: 125, Columns: 8
+Size: 13.5KB
+
+Processing: test_table769.csv
+Thread: Thread-770
+Time: 3100.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table77.csv
+Thread: Thread-78
+Time: 6137.0ms
+Rows: 141, Columns: 8
+Size: 15.2KB
+
+Processing: test_table770.csv
+Thread: Thread-771
+Time: 4030.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table771.csv
+Thread: Thread-772
+Time: 4574.0ms
+Rows: 144, Columns: 8
+Size: 15.4KB
+
+Processing: test_table772.csv
+Thread: Thread-773
+Time: 4054.0ms
+Rows: 130, Columns: 8
+Size: 13.9KB
+
+Processing: test_table773.csv
+Thread: Thread-774
+Time: 3089.0ms
+Rows: 139, Columns: 8
+Size: 15.0KB
+
+Processing: test_table774.csv
+Thread: Thread-775
+Time: 4912.0ms
+Rows: 111, Columns: 8
+Size: 12.0KB
+
+Processing: test_table775.csv
+Thread: Thread-776
+Time: 4861.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table776.csv
+Thread: Thread-777
+Time: 2895.0ms
+Rows: 146, Columns: 8
+Size: 15.6KB
+
+Processing: test_table777.csv
+Thread: Thread-778
+Time: 4869.0ms
+Rows: 138, Columns: 8
+Size: 14.7KB
+
+Processing: test_table778.csv
+Thread: Thread-779
+Time: 5307.0ms
+Rows: 122, Columns: 8
+Size: 13.2KB
+
+Processing: test_table779.csv
+Thread: Thread-780
+Time: 4889.0ms
+Rows: 132, Columns: 8
+Size: 14.1KB
+
+Processing: test_table78.csv
+Thread: Thread-79
+Time: 8421.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table780.csv
+Thread: Thread-781
+Time: 2829.0ms
+Rows: 127, Columns: 8
+Size: 13.8KB
+
+Processing: test_table781.csv
+Thread: Thread-782
+Time: 5282.0ms
+Rows: 127, Columns: 8
+Size: 13.5KB
+
+Processing: test_table782.csv
+Thread: Thread-783
+Time: 5219.0ms
+Rows: 134, Columns: 8
+Size: 14.3KB
+
+Processing: test_table783.csv
+Thread: Thread-784
+Time: 4064.0ms
+Rows: 123, Columns: 8
+Size: 13.2KB
+
+Processing: test_table784.csv
+Thread: Thread-785
+Time: 3384.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table785.csv
+Thread: Thread-786
+Time: 2689.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table786.csv
+Thread: Thread-787
+Time: 4639.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table787.csv
+Thread: Thread-788
+Time: 3446.0ms
+Rows: 166, Columns: 8
+Size: 17.7KB
+
+Processing: test_table788.csv
+Thread: Thread-789
+Time: 2402.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table789.csv
+Thread: Thread-790
+Time: 4560.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table79.csv
+Thread: Thread-80
+Time: 8348.0ms
+Rows: 149, Columns: 8
+Size: 16.0KB
+
+Processing: test_table790.csv
+Thread: Thread-791
+Time: 2635.0ms
+Rows: 151, Columns: 8
+Size: 16.3KB
+
+Processing: test_table791.csv
+Thread: Thread-792
+Time: 4052.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table792.csv
+Thread: Thread-793
+Time: 3380.0ms
+Rows: 118, Columns: 8
+Size: 12.7KB
+
+Processing: test_table793.csv
+Thread: Thread-794
+Time: 4680.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table794.csv
+Thread: Thread-795
+Time: 2607.0ms
+Rows: 149, Columns: 8
+Size: 16.0KB
+
+Processing: test_table795.csv
+Thread: Thread-796
+Time: 5241.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table796.csv
+Thread: Thread-797
+Time: 4788.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table797.csv
+Thread: Thread-798
+Time: 4110.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table798.csv
+Thread: Thread-799
+Time: 4094.0ms
+Rows: 135, Columns: 8
+Size: 14.4KB
+
+Processing: test_table799.csv
+Thread: Thread-800
+Time: 4606.0ms
+Rows: 112, Columns: 8
+Size: 12.0KB
+
+Processing: test_table8.csv
+Thread: Thread-9
+Time: 8723.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table80.csv
+Thread: Thread-81
+Time: 5853.0ms
+Rows: 117, Columns: 8
+Size: 12.5KB
+
+Processing: test_table800.csv
+Thread: Thread-801
+Time: 5255.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table801.csv
+Thread: Thread-802
+Time: 4907.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table802.csv
+Thread: Thread-803
+Time: 3960.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table803.csv
+Thread: Thread-804
+Time: 4033.0ms
+Rows: 137, Columns: 8
+Size: 14.6KB
+
+Processing: test_table804.csv
+Thread: Thread-805
+Time: 3731.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table805.csv
+Thread: Thread-806
+Time: 4099.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table806.csv
+Thread: Thread-807
+Time: 2575.0ms
+Rows: 155, Columns: 8
+Size: 16.8KB
+
+Processing: test_table807.csv
+Thread: Thread-808
+Time: 4028.0ms
+Rows: 144, Columns: 8
+Size: 15.6KB
+
+Processing: test_table808.csv
+Thread: Thread-809
+Time: 3698.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table809.csv
+Thread: Thread-810
+Time: 2619.0ms
+Rows: 125, Columns: 8
+Size: 13.3KB
+
+Processing: test_table81.csv
+Thread: Thread-82
+Time: 8304.0ms
+Rows: 127, Columns: 8
+Size: 13.8KB
+
+Processing: test_table810.csv
+Thread: Thread-811
+Time: 4667.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table811.csv
+Thread: Thread-812
+Time: 2658.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table812.csv
+Thread: Thread-813
+Time: 4722.0ms
+Rows: 154, Columns: 8
+Size: 16.5KB
+
+Processing: test_table813.csv
+Thread: Thread-814
+Time: 4916.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table814.csv
+Thread: Thread-815
+Time: 5147.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table815.csv
+Thread: Thread-816
+Time: 5147.0ms
+Rows: 117, Columns: 8
+Size: 12.6KB
+
+Processing: test_table816.csv
+Thread: Thread-817
+Time: 5199.0ms
+Rows: 129, Columns: 8
+Size: 13.9KB
+
+Processing: test_table817.csv
+Thread: Thread-818
+Time: 4764.0ms
+Rows: 134, Columns: 8
+Size: 14.3KB
+
+Processing: test_table818.csv
+Thread: Thread-819
+Time: 4711.0ms
+Rows: 149, Columns: 8
+Size: 16.1KB
+
+Processing: test_table819.csv
+Thread: Thread-820
+Time: 2542.0ms
+Rows: 135, Columns: 8
+Size: 14.6KB
+
+Processing: test_table82.csv
+Thread: Thread-83
+Time: 7751.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table820.csv
+Thread: Thread-821
+Time: 4651.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table821.csv
+Thread: Thread-822
+Time: 5097.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table822.csv
+Thread: Thread-823
+Time: 3905.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table823.csv
+Thread: Thread-824
+Time: 2229.0ms
+Rows: 142, Columns: 8
+Size: 15.1KB
+
+Processing: test_table824.csv
+Thread: Thread-825
+Time: 4404.0ms
+Rows: 142, Columns: 8
+Size: 15.3KB
+
+Processing: test_table825.csv
+Thread: Thread-826
+Time: 4883.0ms
+Rows: 121, Columns: 8
+Size: 13.0KB
+
+Processing: test_table826.csv
+Thread: Thread-827
+Time: 4701.0ms
+Rows: 139, Columns: 8
+Size: 15.0KB
+
+Processing: test_table827.csv
+Thread: Thread-828
+Time: 3715.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table828.csv
+Thread: Thread-829
+Time: 3859.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table829.csv
+Thread: Thread-830
+Time: 2563.0ms
+Rows: 133, Columns: 8
+Size: 14.5KB
+
+Processing: test_table83.csv
+Thread: Thread-84
+Time: 5713.0ms
+Rows: 110, Columns: 8
+Size: 11.7KB
+
+Processing: test_table830.csv
+Thread: Thread-831
+Time: 3837.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table831.csv
+Thread: Thread-832
+Time: 3628.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table832.csv
+Thread: Thread-833
+Time: 4611.0ms
+Rows: 127, Columns: 8
+Size: 13.8KB
+
+Processing: test_table833.csv
+Thread: Thread-834
+Time: 2591.0ms
+Rows: 147, Columns: 8
+Size: 15.7KB
+
+Processing: test_table834.csv
+Thread: Thread-835
+Time: 4662.0ms
+Rows: 152, Columns: 8
+Size: 16.2KB
+
+Processing: test_table835.csv
+Thread: Thread-836
+Time: 2640.0ms
+Rows: 130, Columns: 8
+Size: 13.8KB
+
+Processing: test_table836.csv
+Thread: Thread-837
+Time: 2549.0ms
+Rows: 141, Columns: 8
+Size: 15.0KB
+
+Processing: test_table837.csv
+Thread: Thread-838
+Time: 2235.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table838.csv
+Thread: Thread-839
+Time: 3862.0ms
+Rows: 140, Columns: 8
+Size: 14.9KB
+
+Processing: test_table839.csv
+Thread: Thread-840
+Time: 2596.0ms
+Rows: 142, Columns: 8
+Size: 15.3KB
+
+Processing: test_table84.csv
+Thread: Thread-85
+Time: 8709.0ms
+Rows: 153, Columns: 8
+Size: 16.5KB
+
+Processing: test_table840.csv
+Thread: Thread-841
+Time: 4519.0ms
+Rows: 129, Columns: 8
+Size: 13.8KB
+
+Processing: test_table841.csv
+Thread: Thread-842
+Time: 4405.0ms
+Rows: 141, Columns: 8
+Size: 15.3KB
+
+Processing: test_table842.csv
+Thread: Thread-843
+Time: 4736.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table843.csv
+Thread: Thread-844
+Time: 5033.0ms
+Rows: 135, Columns: 8
+Size: 14.3KB
+
+Processing: test_table844.csv
+Thread: Thread-845
+Time: 5119.0ms
+Rows: 132, Columns: 8
+Size: 14.2KB
+
+Processing: test_table845.csv
+Thread: Thread-846
+Time: 2427.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table846.csv
+Thread: Thread-847
+Time: 4538.0ms
+Rows: 143, Columns: 8
+Size: 15.3KB
+
+Processing: test_table847.csv
+Thread: Thread-848
+Time: 4774.0ms
+Rows: 146, Columns: 8
+Size: 15.6KB
+
+Processing: test_table848.csv
+Thread: Thread-849
+Time: 4296.0ms
+Rows: 147, Columns: 8
+Size: 15.8KB
+
+Processing: test_table849.csv
+Thread: Thread-850
+Time: 2457.0ms
+Rows: 126, Columns: 8
+Size: 13.5KB
+
+Processing: test_table85.csv
+Thread: Thread-86
+Time: 8505.0ms
+Rows: 123, Columns: 8
+Size: 13.3KB
+
+Processing: test_table850.csv
+Thread: Thread-851
+Time: 4984.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table851.csv
+Thread: Thread-852
+Time: 3871.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table852.csv
+Thread: Thread-853
+Time: 4773.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table853.csv
+Thread: Thread-854
+Time: 3133.0ms
+Rows: 144, Columns: 8
+Size: 15.4KB
+
+Processing: test_table854.csv
+Thread: Thread-855
+Time: 2278.0ms
+Rows: 133, Columns: 8
+Size: 14.2KB
+
+Processing: test_table855.csv
+Thread: Thread-856
+Time: 4684.0ms
+Rows: 151, Columns: 8
+Size: 16.3KB
+
+Processing: test_table856.csv
+Thread: Thread-857
+Time: 3160.0ms
+Rows: 148, Columns: 8
+Size: 16.0KB
+
+Processing: test_table857.csv
+Thread: Thread-858
+Time: 4337.0ms
+Rows: 135, Columns: 8
+Size: 14.7KB
+
+Processing: test_table858.csv
+Thread: Thread-859
+Time: 4502.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table859.csv
+Thread: Thread-860
+Time: 4872.0ms
+Rows: 155, Columns: 8
+Size: 16.6KB
+
+Processing: test_table86.csv
+Thread: Thread-87
+Time: 7350.0ms
+Rows: 134, Columns: 8
+Size: 14.5KB
+
+Processing: test_table860.csv
+Thread: Thread-861
+Time: 4615.0ms
+Rows: 120, Columns: 8
+Size: 13.0KB
+
+Processing: test_table861.csv
+Thread: Thread-862
+Time: 3815.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table862.csv
+Thread: Thread-863
+Time: 5044.0ms
+Rows: 140, Columns: 8
+Size: 15.2KB
+
+Processing: test_table863.csv
+Thread: Thread-864
+Time: 2435.0ms
+Rows: 136, Columns: 8
+Size: 14.5KB
+
+Processing: test_table864.csv
+Thread: Thread-865
+Time: 2667.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table865.csv
+Thread: Thread-866
+Time: 4897.0ms
+Rows: 151, Columns: 8
+Size: 16.2KB
+
+Processing: test_table866.csv
+Thread: Thread-867
+Time: 4502.0ms
+Rows: 128, Columns: 8
+Size: 13.8KB
+
+Processing: test_table867.csv
+Thread: Thread-868
+Time: 4526.0ms
+Rows: 126, Columns: 8
+Size: 13.5KB
+
+Processing: test_table868.csv
+Thread: Thread-869
+Time: 4798.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table869.csv
+Thread: Thread-870
+Time: 2518.0ms
+Rows: 112, Columns: 8
+Size: 12.1KB
+
+Processing: test_table87.csv
+Thread: Thread-88
+Time: 8564.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table870.csv
+Thread: Thread-871
+Time: 3757.0ms
+Rows: 137, Columns: 8
+Size: 14.9KB
+
+Processing: test_table871.csv
+Thread: Thread-872
+Time: 3655.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table872.csv
+Thread: Thread-873
+Time: 4562.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table873.csv
+Thread: Thread-874
+Time: 2978.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table874.csv
+Thread: Thread-875
+Time: 4346.0ms
+Rows: 139, Columns: 8
+Size: 15.1KB
+
+Processing: test_table875.csv
+Thread: Thread-876
+Time: 3608.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table876.csv
+Thread: Thread-877
+Time: 2998.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table877.csv
+Thread: Thread-878
+Time: 2975.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table878.csv
+Thread: Thread-879
+Time: 3442.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table879.csv
+Thread: Thread-880
+Time: 4508.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table88.csv
+Thread: Thread-89
+Time: 8372.0ms
+Rows: 143, Columns: 8
+Size: 15.2KB
+
+Processing: test_table880.csv
+Thread: Thread-881
+Time: 4162.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table881.csv
+Thread: Thread-882
+Time: 4173.0ms
+Rows: 122, Columns: 8
+Size: 13.0KB
+
+Processing: test_table882.csv
+Thread: Thread-883
+Time: 2200.0ms
+Rows: 129, Columns: 8
+Size: 13.9KB
+
+Processing: test_table883.csv
+Thread: Thread-884
+Time: 3626.0ms
+Rows: 128, Columns: 8
+Size: 13.7KB
+
+Processing: test_table884.csv
+Thread: Thread-885
+Time: 4490.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table885.csv
+Thread: Thread-886
+Time: 3663.0ms
+Rows: 139, Columns: 8
+Size: 14.8KB
+
+Processing: test_table886.csv
+Thread: Thread-887
+Time: 3525.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table887.csv
+Thread: Thread-888
+Time: 2302.0ms
+Rows: 120, Columns: 8
+Size: 13.1KB
+
+Processing: test_table888.csv
+Thread: Thread-889
+Time: 4830.0ms
+Rows: 163, Columns: 8
+Size: 17.5KB
+
+Processing: test_table889.csv
+Thread: Thread-890
+Time: 4236.0ms
+Rows: 111, Columns: 8
+Size: 12.1KB
+
+Processing: test_table89.csv
+Thread: Thread-90
+Time: 7921.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table890.csv
+Thread: Thread-891
+Time: 4304.0ms
+Rows: 129, Columns: 8
+Size: 13.9KB
+
+Processing: test_table891.csv
+Thread: Thread-892
+Time: 5040.0ms
+Rows: 129, Columns: 8
+Size: 13.9KB
+
+Processing: test_table892.csv
+Thread: Thread-893
+Time: 4952.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table893.csv
+Thread: Thread-894
+Time: 2884.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table894.csv
+Thread: Thread-895
+Time: 4481.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table895.csv
+Thread: Thread-896
+Time: 4708.0ms
+Rows: 138, Columns: 8
+Size: 14.7KB
+
+Processing: test_table896.csv
+Thread: Thread-897
+Time: 4154.0ms
+Rows: 153, Columns: 8
+Size: 16.4KB
+
+Processing: test_table897.csv
+Thread: Thread-898
+Time: 1822.0ms
+Rows: 147, Columns: 8
+Size: 16.0KB
+
+Processing: test_table898.csv
+Thread: Thread-899
+Time: 4750.0ms
+Rows: 151, Columns: 8
+Size: 16.2KB
+
+Processing: test_table899.csv
+Thread: Thread-900
+Time: 4948.0ms
+Rows: 135, Columns: 8
+Size: 14.4KB
+
+Processing: test_table9.csv
+Thread: Thread-10
+Time: 8256.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table90.csv
+Thread: Thread-91
+Time: 5582.0ms
+Rows: 136, Columns: 8
+Size: 14.7KB
+
+Processing: test_table900.csv
+Thread: Thread-901
+Time: 4007.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table901.csv
+Thread: Thread-902
+Time: 2483.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table902.csv
+Thread: Thread-903
+Time: 2895.0ms
+Rows: 154, Columns: 8
+Size: 16.6KB
+
+Processing: test_table903.csv
+Thread: Thread-904
+Time: 4029.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table904.csv
+Thread: Thread-905
+Time: 4117.0ms
+Rows: 152, Columns: 8
+Size: 16.3KB
+
+Processing: test_table905.csv
+Thread: Thread-906
+Time: 4390.0ms
+Rows: 127, Columns: 8
+Size: 13.6KB
+
+Processing: test_table906.csv
+Thread: Thread-907
+Time: 4529.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table907.csv
+Thread: Thread-908
+Time: 4534.0ms
+Rows: 147, Columns: 8
+Size: 16.1KB
+
+Processing: test_table908.csv
+Thread: Thread-909
+Time: 2000.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table909.csv
+Thread: Thread-910
+Time: 3887.0ms
+Rows: 125, Columns: 8
+Size: 13.5KB
+
+Processing: test_table91.csv
+Thread: Thread-92
+Time: 7614.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table910.csv
+Thread: Thread-911
+Time: 4447.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table911.csv
+Thread: Thread-912
+Time: 4829.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table912.csv
+Thread: Thread-913
+Time: 3825.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table913.csv
+Thread: Thread-914
+Time: 4010.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table914.csv
+Thread: Thread-915
+Time: 2749.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table915.csv
+Thread: Thread-916
+Time: 2778.0ms
+Rows: 121, Columns: 8
+Size: 12.9KB
+
+Processing: test_table916.csv
+Thread: Thread-917
+Time: 4159.0ms
+Rows: 146, Columns: 8
+Size: 15.7KB
+
+Processing: test_table917.csv
+Thread: Thread-918
+Time: 3979.0ms
+Rows: 130, Columns: 8
+Size: 14.0KB
+
+Processing: test_table918.csv
+Thread: Thread-919
+Time: 3214.0ms
+Rows: 116, Columns: 8
+Size: 12.4KB
+
+Processing: test_table919.csv
+Thread: Thread-920
+Time: 3433.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table92.csv
+Thread: Thread-93
+Time: 5893.0ms
+Rows: 135, Columns: 8
+Size: 14.5KB
+
+Processing: test_table920.csv
+Thread: Thread-921
+Time: 4163.0ms
+Rows: 120, Columns: 8
+Size: 13.0KB
+
+Processing: test_table921.csv
+Thread: Thread-922
+Time: 3921.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table922.csv
+Thread: Thread-923
+Time: 4063.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table923.csv
+Thread: Thread-924
+Time: 4579.0ms
+Rows: 140, Columns: 8
+Size: 14.9KB
+
+Processing: test_table924.csv
+Thread: Thread-925
+Time: 4171.0ms
+Rows: 143, Columns: 8
+Size: 15.5KB
+
+Processing: test_table925.csv
+Thread: Thread-926
+Time: 2812.0ms
+Rows: 151, Columns: 8
+Size: 16.2KB
+
+Processing: test_table926.csv
+Thread: Thread-927
+Time: 4364.0ms
+Rows: 138, Columns: 8
+Size: 14.7KB
+
+Processing: test_table927.csv
+Thread: Thread-928
+Time: 4151.0ms
+Rows: 144, Columns: 8
+Size: 15.6KB
+
+Processing: test_table928.csv
+Thread: Thread-929
+Time: 3888.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table929.csv
+Thread: Thread-930
+Time: 4285.0ms
+Rows: 130, Columns: 8
+Size: 14.1KB
+
+Processing: test_table93.csv
+Thread: Thread-94
+Time: 7726.0ms
+Rows: 144, Columns: 8
+Size: 15.6KB
+
+Processing: test_table930.csv
+Thread: Thread-931
+Time: 3362.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table931.csv
+Thread: Thread-932
+Time: 1565.0ms
+Rows: 131, Columns: 8
+Size: 14.1KB
+
+Processing: test_table932.csv
+Thread: Thread-933
+Time: 2006.0ms
+Rows: 125, Columns: 8
+Size: 13.4KB
+
+Processing: test_table933.csv
+Thread: Thread-934
+Time: 3780.0ms
+Rows: 127, Columns: 8
+Size: 13.8KB
+
+Processing: test_table934.csv
+Thread: Thread-935
+Time: 3943.0ms
+Rows: 144, Columns: 8
+Size: 15.5KB
+
+Processing: test_table935.csv
+Thread: Thread-936
+Time: 3843.0ms
+Rows: 135, Columns: 8
+Size: 14.7KB
+
+Processing: test_table936.csv
+Thread: Thread-937
+Time: 2025.0ms
+Rows: 142, Columns: 8
+Size: 15.3KB
+
+Processing: test_table937.csv
+Thread: Thread-938
+Time: 4496.0ms
+Rows: 152, Columns: 8
+Size: 16.4KB
+
+Processing: test_table938.csv
+Thread: Thread-939
+Time: 3155.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table939.csv
+Thread: Thread-940
+Time: 3274.0ms
+Rows: 119, Columns: 8
+Size: 12.9KB
+
+Processing: test_table94.csv
+Thread: Thread-95
+Time: 5917.0ms
+Rows: 143, Columns: 8
+Size: 15.3KB
+
+Processing: test_table940.csv
+Thread: Thread-941
+Time: 4438.0ms
+Rows: 153, Columns: 8
+Size: 16.4KB
+
+Processing: test_table941.csv
+Thread: Thread-942
+Time: 2335.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table942.csv
+Thread: Thread-943
+Time: 2022.0ms
+Rows: 134, Columns: 8
+Size: 14.3KB
+
+Processing: test_table943.csv
+Thread: Thread-944
+Time: 3807.0ms
+Rows: 143, Columns: 8
+Size: 15.3KB
+
+Processing: test_table944.csv
+Thread: Thread-945
+Time: 3821.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table945.csv
+Thread: Thread-946
+Time: 4006.0ms
+Rows: 133, Columns: 8
+Size: 14.5KB
+
+Processing: test_table946.csv
+Thread: Thread-947
+Time: 1644.0ms
+Rows: 136, Columns: 8
+Size: 14.5KB
+
+Processing: test_table947.csv
+Thread: Thread-948
+Time: 4157.0ms
+Rows: 145, Columns: 8
+Size: 15.7KB
+
+Processing: test_table948.csv
+Thread: Thread-949
+Time: 1972.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table949.csv
+Thread: Thread-950
+Time: 4482.0ms
+Rows: 140, Columns: 8
+Size: 15.1KB
+
+Processing: test_table95.csv
+Thread: Thread-96
+Time: 8497.0ms
+Rows: 128, Columns: 8
+Size: 13.8KB
+
+Processing: test_table950.csv
+Thread: Thread-951
+Time: 1942.0ms
+Rows: 113, Columns: 8
+Size: 12.3KB
+
+Processing: test_table951.csv
+Thread: Thread-952
+Time: 1974.0ms
+Rows: 142, Columns: 8
+Size: 15.3KB
+
+Processing: test_table952.csv
+Thread: Thread-953
+Time: 4625.0ms
+Rows: 143, Columns: 8
+Size: 15.4KB
+
+Processing: test_table953.csv
+Thread: Thread-954
+Time: 4409.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table954.csv
+Thread: Thread-955
+Time: 4043.0ms
+Rows: 113, Columns: 8
+Size: 12.1KB
+
+Processing: test_table955.csv
+Thread: Thread-956
+Time: 4061.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table956.csv
+Thread: Thread-957
+Time: 3739.0ms
+Rows: 157, Columns: 8
+Size: 16.9KB
+
+Processing: test_table957.csv
+Thread: Thread-958
+Time: 1575.0ms
+Rows: 137, Columns: 8
+Size: 14.7KB
+
+Processing: test_table958.csv
+Thread: Thread-959
+Time: 4010.0ms
+Rows: 114, Columns: 8
+Size: 12.2KB
+
+Processing: test_table959.csv
+Thread: Thread-960
+Time: 2985.0ms
+Rows: 131, Columns: 8
+Size: 14.0KB
+
+Processing: test_table96.csv
+Thread: Thread-97
+Time: 8021.0ms
+Rows: 126, Columns: 8
+Size: 13.6KB
+
+Processing: test_table960.csv
+Thread: Thread-961
+Time: 1989.0ms
+Rows: 128, Columns: 8
+Size: 13.6KB
+
+Processing: test_table961.csv
+Thread: Thread-962
+Time: 2518.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table962.csv
+Thread: Thread-963
+Time: 1808.0ms
+Rows: 157, Columns: 8
+Size: 16.8KB
+
+Processing: test_table963.csv
+Thread: Thread-964
+Time: 4051.0ms
+Rows: 121, Columns: 8
+Size: 13.0KB
+
+Processing: test_table964.csv
+Thread: Thread-965
+Time: 2344.0ms
+Rows: 138, Columns: 8
+Size: 14.8KB
+
+Processing: test_table965.csv
+Thread: Thread-966
+Time: 1626.0ms
+Rows: 144, Columns: 8
+Size: 15.7KB
+
+Processing: test_table966.csv
+Thread: Thread-967
+Time: 2489.0ms
+Rows: 131, Columns: 8
+Size: 14.2KB
+
+Processing: test_table967.csv
+Thread: Thread-968
+Time: 1954.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table968.csv
+Thread: Thread-969
+Time: 3724.0ms
+Rows: 136, Columns: 8
+Size: 14.5KB
+
+Processing: test_table969.csv
+Thread: Thread-970
+Time: 1740.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table97.csv
+Thread: Thread-98
+Time: 7943.0ms
+Rows: 138, Columns: 8
+Size: 14.9KB
+
+Processing: test_table970.csv
+Thread: Thread-971
+Time: 4110.0ms
+Rows: 134, Columns: 8
+Size: 14.4KB
+
+Processing: test_table971.csv
+Thread: Thread-972
+Time: 2882.0ms
+Rows: 132, Columns: 8
+Size: 14.1KB
+
+Processing: test_table972.csv
+Thread: Thread-973
+Time: 2526.0ms
+Rows: 155, Columns: 8
+Size: 16.7KB
+
+Processing: test_table973.csv
+Thread: Thread-974
+Time: 1952.0ms
+Rows: 140, Columns: 8
+Size: 15.0KB
+
+Processing: test_table974.csv
+Thread: Thread-975
+Time: 4357.0ms
+Rows: 157, Columns: 8
+Size: 16.8KB
+
+Processing: test_table975.csv
+Thread: Thread-976
+Time: 2524.0ms
+Rows: 146, Columns: 8
+Size: 15.6KB
+
+Processing: test_table976.csv
+Thread: Thread-977
+Time: 1767.0ms
+Rows: 119, Columns: 8
+Size: 12.8KB
+
+Processing: test_table977.csv
+Thread: Thread-978
+Time: 1721.0ms
+Rows: 136, Columns: 8
+Size: 14.8KB
+
+Processing: test_table978.csv
+Thread: Thread-979
+Time: 3504.0ms
+Rows: 162, Columns: 8
+Size: 17.3KB
+
+Processing: test_table979.csv
+Thread: Thread-980
+Time: 4288.0ms
+Rows: 133, Columns: 8
+Size: 14.4KB
+
+Processing: test_table98.csv
+Thread: Thread-99
+Time: 7849.0ms
+Rows: 150, Columns: 8
+Size: 16.0KB
+
+Processing: test_table980.csv
+Thread: Thread-981
+Time: 2759.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table981.csv
+Thread: Thread-982
+Time: 2382.0ms
+Rows: 128, Columns: 8
+Size: 13.9KB
+
+Processing: test_table982.csv
+Thread: Thread-983
+Time: 3726.0ms
+Rows: 116, Columns: 8
+Size: 12.4KB
+
+Processing: test_table983.csv
+Thread: Thread-984
+Time: 1673.0ms
+Rows: 148, Columns: 8
+Size: 15.9KB
+
+Processing: test_table984.csv
+Thread: Thread-985
+Time: 1974.0ms
+Rows: 136, Columns: 8
+Size: 14.6KB
+
+Processing: test_table985.csv
+Thread: Thread-986
+Time: 2390.0ms
+Rows: 137, Columns: 8
+Size: 14.8KB
+
+Processing: test_table986.csv
+Thread: Thread-987
+Time: 2382.0ms
+Rows: 144, Columns: 8
+Size: 15.6KB
+
+Processing: test_table987.csv
+Thread: Thread-988
+Time: 3751.0ms
+Rows: 122, Columns: 8
+Size: 13.1KB
+
+Processing: test_table988.csv
+Thread: Thread-989
+Time: 4239.0ms
+Rows: 152, Columns: 8
+Size: 16.3KB
+
+Processing: test_table989.csv
+Thread: Thread-990
+Time: 2443.0ms
+Rows: 141, Columns: 8
+Size: 15.3KB
+
+Processing: test_table99.csv
+Thread: Thread-100
+Time: 6404.0ms
+Rows: 128, Columns: 8
+Size: 13.6KB
+
+Processing: test_table990.csv
+Thread: Thread-991
+Time: 3108.0ms
+Rows: 139, Columns: 8
+Size: 14.9KB
+
+Processing: test_table991.csv
+Thread: Thread-992
+Time: 2997.0ms
+Rows: 133, Columns: 8
+Size: 14.3KB
+
+Processing: test_table992.csv
+Thread: Thread-993
+Time: 1666.0ms
+Rows: 141, Columns: 8
+Size: 15.1KB
+
+Processing: test_table993.csv
+Thread: Thread-994
+Time: 2996.0ms
+Rows: 127, Columns: 8
+Size: 13.7KB
+
+Processing: test_table994.csv
+Thread: Thread-995
+Time: 3522.0ms
+Rows: 123, Columns: 8
+Size: 13.1KB
+
+Processing: test_table995.csv
+Thread: Thread-996
+Time: 3027.0ms
+Rows: 145, Columns: 8
+Size: 15.6KB
+
+Processing: test_table996.csv
+Thread: Thread-997
+Time: 2983.0ms
+Rows: 142, Columns: 8
+Size: 15.2KB
+
+Processing: test_table997.csv
+Thread: Thread-998
+Time: 3766.0ms
+Rows: 118, Columns: 8
+Size: 12.7KB
+
+Processing: test_table998.csv
+Thread: Thread-999
+Time: 3943.0ms
+Rows: 144, Columns: 8
+Size: 15.4KB
+
+Processing: test_table999.csv
+Thread: Thread-1000
+Time: 4082.0ms
+Rows: 130, Columns: 8
+Size: 13.8KB
+
+
+============================================================
+THREAD PERFORMANCE ANALYSIS
+============================================================
+
+BASIC STATISTICS:
+Total threads analyzed: 1021
+Average execution time: 5684.2ms
+Median execution time: 5714.0ms
+Fastest thread: 0.1ms
+Slowest thread: 8844.0ms
+Time variance: 3123413.4
+Standard deviation: 1767.3ms
+25th percentile: 4447.0ms
+50th percentile: 5714.0ms
+75th percentile: 7248.0ms
+90th percentile: 7913.0ms
+95th percentile: 8221.0ms
